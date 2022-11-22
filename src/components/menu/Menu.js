@@ -1,4 +1,4 @@
-import style from "./Menu.module.css";
+import style from "./menu.module.css";
 import React, { useState } from "react";
 import {
   Collapse,
@@ -9,8 +9,8 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import AboutUsPage from "../pages/AboutUsPage";
-import HiringPage from "../pages/HiringPage";
+import AboutUsPage from "../../pages/about-us-page";
+import HiringPage from "../../pages/hiring-page";
 
 function Menu() {
   const [collapsed, setCollapsed] = useState(true);

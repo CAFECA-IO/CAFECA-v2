@@ -1,6 +1,6 @@
-import style from "./Mynavbar.module.css";
-import Logo from "../logo/Logo";
-import Menu from "../menu/Menu";
+import style from "./mynavbar.module.css";
+import Logo from "../logo/logo";
+import Menu from "../menu/menu";
 
 function Mynavbar() {
   return (
