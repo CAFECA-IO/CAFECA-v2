@@ -9,6 +9,8 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
+import AboutUsPage from "../pages/AboutUsPage";
+import HiringPage from "../pages/HiringPage";
 
 function Menu() {
   const [collapsed, setCollapsed] = useState(true);
@@ -16,15 +18,19 @@ function Menu() {
   return (
     <div className={style.container}>
       <Navbar className="navbar navbar-light">
-        <NavbarBrand />
+        <NavbarBrand className="mr-auto">reactstrap</NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className={style.burger} />
         <Collapse isOpen={!collapsed} navbar>
           <Nav className={style.menu} navbar>
             <NavItem>
-              <NavLink href="">About Us</NavLink>
+              <NavLink href="/about-us" element={<AboutUsPage />}>
+                About Us
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="">Hiring</NavLink>
+              <NavLink href="/hiring" element={<HiringPage />}>
+                Hiring
+              </NavLink>
             </NavItem>
           </Nav>
         </Collapse>

@@ -2,7 +2,7 @@
   width: auto;
 }
 .menu {
-  display: flex;
+  width: inherit;
   background-color: #f2f2f2;
 }
 
