@@ -9,8 +9,8 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import AboutUsPage from "../../pages/about-us-page";
-import HiringPage from "../../pages/hiring-page";
+import AboutUsPage from "../../pages/about_us_page";
+import HiringPage from "../../pages/hiring_page";
 
 function Menu() {
   const [collapsed, setCollapsed] = useState(true);

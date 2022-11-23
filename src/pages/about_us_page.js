@@ -1,4 +1,4 @@
-import Mynavbar from "../components/navbar/my-navbar";
+import Mynavbar from "../components/navbar/mynavbar";
 
 function AboutUsPage() {
   return (
