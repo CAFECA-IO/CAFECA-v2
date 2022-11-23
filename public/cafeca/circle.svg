@@ -6,7 +6,7 @@
       <stop offset="1" stop-color="#46ebed"/>
     </linearGradient>
   </defs>
-  <g id="Group_67" data-name="Group 67" transform="translate(-0.118 -0.118)" opacity="0">
+  <g id="Group_67" data-name="Group 67" transform="translate(-0.118 -0.118)">
     <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="220" cy="220.5" rx="220" ry="220.5" transform="translate(171.118 171.118)" fill="url(#linear-gradient)"/>
     <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(85.118 85.118)" fill="none" stroke="#f2f2f2" stroke-width="0.5" opacity="0.5">
       <circle cx="306.5" cy="306.5" r="306.5" stroke="none"/>
