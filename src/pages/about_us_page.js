@@ -1,4 +1,5 @@
 import Mynavbar from "../components/navbar/mynavbar";
+import Footer from "../components/footer/footer";
 
 function AboutUsPage() {
   return (
@@ -6,6 +7,9 @@ function AboutUsPage() {
       <header>
         <Mynavbar />
       </header>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

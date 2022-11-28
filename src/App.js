@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 
 import style from "./App.css";
-import AboutUsPage from "./pages/about-us-page";
-import HiringPage from "./pages/hiring-page";
-import HomePage from "./pages/home-page";
+import AboutUsPage from "./pages/about_us_page";
+import HiringPage from "./pages/hiring_page";
+import HomePage from "./pages/home_page";
 
 function App() {
   return (

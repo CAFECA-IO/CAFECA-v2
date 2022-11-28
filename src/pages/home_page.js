@@ -1,16 +1,16 @@
-import Mynavbar from "../components/navbar/my-navbar";
+import Mynavbar from "../components/navbar/mynavbar";
 import BackGroundItems from "../components/animation/bg_color";
+import Footer from "../components/footer/footer";
 
 function HomePage() {
   return (
-    <div>
-      <header>
-        <Mynavbar />
-      </header>
-      <body>
-        <BackGroundItems />
-      </body>
-    </div>
+    <>
+      <Mynavbar />
+
+      <BackGroundItems />
+
+      <Footer />
+    </>
   );
 }
 export default HomePage;
