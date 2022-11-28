@@ -9,7 +9,7 @@ function Footer() {
           <img src="./cafeca/cafeca_logo_mono.svg" alt="CAFECA" />
         </Link>
         <div className={style.copyright}>
-          Copyright © 2022 CAFECA. All rights reserved.
+          Copyright © 2022 CAFECA. All rights reserved. v2.0
         </div>
       </div>
     </>

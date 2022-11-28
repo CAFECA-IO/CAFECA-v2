@@ -5,11 +5,15 @@ import Footer from "../components/footer/footer";
 function HomePage() {
   return (
     <>
-      <Mynavbar />
-
-      <BackGroundItems />
-
-      <Footer />
+      <header>
+        <Mynavbar />
+      </header>
+      <body>
+        <BackGroundItems />
+      </body>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
