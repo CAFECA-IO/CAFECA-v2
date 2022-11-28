@@ -1,0 +1,158 @@
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  top: 306px;
+  left: 49px;
+  width: auto;
+  height: 47px;
+
+  color: #f2f2f2;
+  text-align: left;
+  font: normal normal 600 33px/50px Poppins;
+  letter-spacing: 0.46px;
+  z-index: 3;
+}
+
+p {
+  position: absolute;
+  top: 463px;
+  left: 49px;
+  width: 484px;
+  height: 86px;
+
+  color: #f2f2f2;
+  text-align: left;
+  font: normal normal normal 22px/33px Poppins;
+  z-index: 3;
+}
+
+.cafeca {
+  position: absolute;
+  top: 388px;
+  left: 49px;
+  width: 168px;
+  height: 40px;
+  z-index: 3;
+}
+
+.vline {
+  position: absolute;
+  top: 550px;
+  left: 99px;
+  width: 0px;
+  height: 151px;
+
+  border-left: 1px #f2f2f2 solid;
+  z-index: 3;
+}
+
+.hline {
+  position: absolute;
+  top: 750px;
+  left: 149px;
+  width: 491px;
+  height: 0px;
+
+  border-bottom: 1px #f2f2f2 solid;
+  z-index: 3;
+}
+
+.balls {
+  position: absolute;
+  top: -198px;
+  left: -466px;
+  width: 1986px;
+  height: 1367px;
+  z-index: -1;
+}
+
+.circle {
+  position: absolute;
+  top: 93px;
+  left: 568px;
+  width: 783px;
+  height: 783px;
+  z-index: 0;
+}
+
+.waveh {
+  position: absolute;
+  top: 100px;
+  left: 520px;
+  width: 209px;
+  height: 69px;
+  z-index: 0;
+}
+
+.wavev {
+  position: absolute;
+  top: 169px;
+  left: 49px;
+  width: 69px;
+  height: 209px;
+  z-index: 0;
+}
+
+.scroll {
+  position: absolute;
+  top: 700px;
+  left: 49px;
+  z-index: 0;
+}
+
+.future {
+  position: absolute;
+  top: 245px;
+  left: 640px;
+  width: 523px;
+  height: 458px;
+  z-index: 1;
+}
+
+.whitecard {
+  position: absolute;
+  top: 278px;
+  left: 601px;
+  width: 196px;
+  height: 135px;
+  z-index: 2;
+}
+.creditcard {
+  position: absolute;
+  top: 112px;
+  left: 752px;
+  width: 173px;
+  height: 173px;
+  z-index: 2;
+}
+
+.wallet {
+  position: absolute;
+  top: 144px;
+  left: 965px;
+  width: 141px;
+  height: 141px;
+  z-index: 2;
+}
+
+.euro {
+  position: absolute;
+  top: 245px;
+  left: 1058px;
+  width: 186px;
+  height: 186px;
+  z-index: 2;
+}
+
+.passport {
+  position: absolute;
+  top: 473px;
+  left: 1140px;
+  width: 115px;
+  height: 115px;
+  z-index: 2;
+}
