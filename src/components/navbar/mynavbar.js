@@ -5,12 +5,16 @@ import Menu from "../menu/menu";
 function Mynavbar() {
   return (
     <header className={style.header}>
-      <div className={style.logo}>
-        <Logo />
-      </div>
-      <div>
-        <Menu />
-      </div>
+      <nav>
+        <ul>
+          <div className={style.logo}>
+            <Logo />
+          </div>
+          <li>
+            <Menu />
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }
