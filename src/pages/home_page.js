@@ -8,9 +8,9 @@ function HomePage() {
       <header>
         <Mynavbar />
       </header>
-      <body>
+      <div>
         <BackGroundItems />
-      </body>
+      </div>
       <footer>
         <Footer />
       </footer>
