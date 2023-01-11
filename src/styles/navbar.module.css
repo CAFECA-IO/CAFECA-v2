@@ -1,0 +1,108 @@
+.navbar {
+  background-image: linear-gradient(to bottom, black, transparent);
+  width: 100vw;
+  padding: 20px;
+
+  font: normal normal 20px/26px Dosis;
+  font-size: medium;
+
+  justify-content: space-between;
+  position: fixed;
+  transition: all 0.5s ease;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar li {
+  white-space: nowrap;
+  color: #f2f2f2;
+}
+.navbar li:hover {
+  color: pink;
+}
+
+@media (max-width: 991.99px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .navbar ul {
+    flex-direction: column;
+  }
+  .navbar li {
+    padding: 20px;
+  }
+
+  .menu_btn {
+    margin-top: 20px;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+    cursor: pointer;
+  }
+  .menu_btn_burger,
+  .menu_btn_cross {
+    width: 35px;
+    height: 2px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu_btn_cross:nth-child(1) {
+    transform: rotate(45deg) translate(10px, 10px);
+  }
+  .menu_btn_cross:nth-child(2) {
+    transform: scale(0.1);
+  }
+  .menu_btn_cross:nth-child(3) {
+    transform: rotate(-45deg) translate(10px, -10px);
+  }
+
+  .closeMenu {
+    max-height: 0;
+    transition: all 0.7s ease;
+    overflow: hidden;
+  }
+  .openMenu {
+    max-height: 700px;
+    transition: all 0.7s ease;
+    overflow: auto;
+  }
+  /*  隱藏捲軸 */
+  .closeMenu ::-webkit-scrollbar,
+  .openMenu::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .navbar ul {
+    flex-direction: row;
+  }
+  .navbar li {
+    padding: 10px 15px 10px 15px;
+  }
+
+  .menu_btn {
+    display: none;
+  }
+
+  .navbar li:last-child::after {
+    content: "\2335";
+    margin-left: 5px;
+  }
+  .navbar li:last-child {
+    border-left: 0.5px solid rgba(242, 242, 242, 0.5);
+  }
+}

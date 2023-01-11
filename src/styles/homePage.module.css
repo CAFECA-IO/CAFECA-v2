@@ -1,0 +1,22 @@
+.masterContainer {
+  background: black;
+  background-image: url("/img/main_bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.walletText {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 700px;
+}

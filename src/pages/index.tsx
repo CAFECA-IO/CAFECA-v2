@@ -1,18 +1,19 @@
 import Image from "next/image";
 import { Inter } from "@next/font/google";
-import styles from "../styles/Home.module.css";
-import myStyles from "../styles/index.module.css";
+import myStyles from "../styles/homePage.module.css";
 
 import MainNavbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
+import ContactUsForm from "../components/contactUsForm/contactUsForm";
 //const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className={styles.masterContainer}>
+    <main className={myStyles.masterContainer}>
       <MainNavbar />
-      <div className={styles.container}>
-        <div className={styles.walletText}>
+
+      <div className={myStyles.container}>
+        <div className={myStyles.walletText}>
           <h2>THE NEXT GENERATION WALLET</h2>
           <Image
             src="/img/cafeca.svg"
@@ -25,7 +26,9 @@ export default function Home() {
             the future.
           </p>
         </div>
+        <ContactUsForm />
       </div>
+
       <Footer />
     </main>
   );
