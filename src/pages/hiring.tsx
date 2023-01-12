@@ -1,7 +1,11 @@
+import Layout from "../components/layout/layout";
+
 function HiringPage() {
   return (
     <>
-      <h1>Hiring</h1>
+      <Layout>
+        <h1>Hiring</h1>
+      </Layout>
     </>
   );
 }

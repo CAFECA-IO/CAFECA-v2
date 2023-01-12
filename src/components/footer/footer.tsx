@@ -6,7 +6,7 @@ function Footer() {
 
   return (
     <footer>
-      <Link href="/">
+      <Link href="/#cafeca_main" scroll={false}>
         <Image
           src="/img/cafeca_logo_mono.svg"
           alt="cafeca_logo"
