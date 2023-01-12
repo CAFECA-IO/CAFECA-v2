@@ -8,12 +8,7 @@ function ContactUsForm() {
       <h1 className={myStyles.formTitle}>CONTACT US</h1>
       <div className={myStyles.formContainer}>
         <div>
-          <Image
-            src="/img/leaning_card_front.svg"
-            alt=""
-            width={475}
-            height={325}
-          />
+          <Image src="/img/card_front-2.svg" alt="" width={475} height={325} />
         </div>
         <form className={myStyles.formContent}>
           <div style={{ display: "inline-flex" }}>
@@ -44,25 +39,30 @@ function ContactUsForm() {
             type="text"
             placeholder="聯絡電話"
             className={myStyles.input_textbox}
+            style={{ marginBottom: "0" }}
             required
           ></input>
-          <div style={{ display: "inline-flex" }}>
-            <div>
+          <div className={myStyles.checkboxContainer}>
+            <label className={myStyles.input_checkbox}>
               <input id="type" type="checkbox"></input>
-              <label>技術詢問</label>
-            </div>
-            <div>
+              <span></span>
+              技術詢問
+            </label>
+            <label className={myStyles.input_checkbox}>
               <input id="type" type="checkbox"></input>
-              <label>合作洽談</label>
-            </div>
-            <div>
+              <span></span>
+              合作洽談
+            </label>
+            <label className={myStyles.input_checkbox}>
               <input id="type" type="checkbox"></input>
-              <label>報價詢問</label>
-            </div>
-            <div>
+              <span></span>
+              報價詢問
+            </label>
+            <label className={myStyles.input_checkbox}>
               <input id="type" type="checkbox"></input>
-              <label>其他</label>
-            </div>
+              <span></span>
+              其他
+            </label>
           </div>
           <textarea
             id="message"
@@ -76,7 +76,13 @@ function ContactUsForm() {
           <button type="submit" className={myStyles.btn}>
             <p>SEND</p>
             <div className={myStyles.btnImg}>
-              <Image src="/img/send.svg" alt="" width={25} height={25} />
+              <Image
+                src="/img/send.svg"
+                alt=""
+                width={25}
+                height={25}
+                style={{ zIndex: "1" }}
+              />
             </div>
           </button>
         </form>

@@ -26,7 +26,9 @@ export default function Home() {
             the future.
           </p>
         </div>
-        <ContactUsForm />
+        <div id="contact_us">
+          <ContactUsForm />
+        </div>
       </div>
 
       <Footer />

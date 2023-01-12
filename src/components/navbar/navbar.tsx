@@ -17,7 +17,7 @@ function MainNavbar() {
 
   return (
     <nav className={myStyles.navbar}>
-      <Link href="/">
+      <Link href="/#" scroll={false}>
         <Image
           src="/img/cafeca_logo.svg"
           alt="cafeca_logo"
@@ -35,13 +35,15 @@ function MainNavbar() {
       <div className={menuStyles}>
         <ul>
           <li>
-            <Link href="#">CONTACT US</Link>
+            <Link href="#contact_us" scroll={false}>
+              CONTACT US
+            </Link>
           </li>
           <li>
-            <Link href="about_us">ABOUT US</Link>
+            <Link href="/about_us">ABOUT US</Link>
           </li>
           <li>
-            <Link href="hiring">JOIN US</Link>
+            <Link href="/hiring">JOIN US</Link>
           </li>
           <li>Language</li>
         </ul>
