@@ -19,9 +19,9 @@ function HiringItems(props: any) {
     : myStyles.see_more_btn_close;
 
   //job detail
-  const jobDetail = jobDetails.map((v) => {
+  /*   const jobDetail = jobDetails.map((v) => {
     return <li>{t(`hiring.job1.detail${v}`)}</li>;
-  });
+  }); */
 
   return (
     <div className={myStyles.hiring_item}>
