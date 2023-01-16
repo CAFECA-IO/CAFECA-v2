@@ -1,6 +1,6 @@
 .masterContainer {
-  background: black;
   background-image: url("/img/main_bg.svg");
+  background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
 }

@@ -97,6 +97,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+main {
+  background: black;
+}
+
 /* footer style */
 footer {
   margin: 0 30px 0 30px;

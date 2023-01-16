@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { Inter } from "@next/font/google";
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import myStyles from "../styles/homePage.module.css";
 
 import Layout from "../components/layout/layout";
@@ -7,22 +9,21 @@ import ContactUsForm from "../components/contactUsForm/contactUsForm";
 //const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const { t } = useTranslation("common");
+
   return (
-    <main className={myStyles.masterContainer}>
+    <main>
       <Layout>
         <div className={myStyles.container}>
           <div id="cafeca_main" className={myStyles.walletText}>
-            <h2>THE NEXT GENERATION WALLET</h2>
+            <h2>{t("main.title")}</h2>
             <Image
               src="/img/cafeca.svg"
               alt="cafeca_logo"
               width={170}
               height={40}
             />
-            <p>
-              Combine wallets, keys and ID in one card. Explore the infinity in
-              the future.
-            </p>
+            <p>{t("main.description")}</p>
           </div>
           <div id="contact_us">
             <ContactUsForm />
@@ -31,4 +32,13 @@ export default function Home() {
       </Layout>
     </main>
   );
+}
+
+export async function getStaticProps({ locale }: any) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common"])),
+      // Will be passed to the page component as props
+    },
+  };
 }

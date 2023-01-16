@@ -1,11 +1,14 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 import myStyles from "../../styles/form.module.css";
 
 function ContactUsForm() {
+  const { t } = useTranslation("common");
+
   return (
     <div>
-      <h1 className={myStyles.formTitle}>CONTACT US</h1>
+      <h1 className={myStyles.formTitle}>{t("contact.title")}</h1>
       <div className={myStyles.formContainer}>
         <div>
           <Image src="/img/card_front-2.svg" alt="" width={475} height={325} />
@@ -15,14 +18,14 @@ function ContactUsForm() {
             <input
               id="name"
               type="text"
-              placeholder="姓名"
+              placeholder={`${t("contact.name")}`}
               className={myStyles.input_textbox}
               required
             ></input>
             <input
               id="company"
               type="text"
-              placeholder="公司名稱"
+              placeholder={`${t("contact.company")}`}
               className={myStyles.input_textbox}
               required
             ></input>
@@ -30,14 +33,14 @@ function ContactUsForm() {
           <input
             id="email"
             type="text"
-            placeholder="E-MAIL"
+            placeholder={`${t("contact.email")}`}
             className={myStyles.input_textbox}
             required
           ></input>
           <input
             id="phone"
             type="text"
-            placeholder="聯絡電話"
+            placeholder={`${t("contact.phone")}`}
             className={myStyles.input_textbox}
             style={{ marginBottom: "0" }}
             required
@@ -46,35 +49,35 @@ function ContactUsForm() {
             <label className={myStyles.input_checkbox}>
               <input id="type" type="checkbox"></input>
               <span></span>
-              技術詢問
+              {t("contact.type1")}
             </label>
             <label className={myStyles.input_checkbox}>
               <input id="type" type="checkbox"></input>
               <span></span>
-              合作洽談
+              {t("contact.type2")}
             </label>
             <label className={myStyles.input_checkbox}>
               <input id="type" type="checkbox"></input>
               <span></span>
-              報價詢問
+              {t("contact.type3")}
             </label>
             <label className={myStyles.input_checkbox}>
               <input id="type" type="checkbox"></input>
               <span></span>
-              其他
+              {t("contact.type4")}
             </label>
           </div>
           <textarea
             id="message"
             rows={10}
             wrap="soft"
-            placeholder="想說什麼..."
+            placeholder={`${t("contact.message")}`}
             className={myStyles.input_textarea}
             required
           ></textarea>
 
           <button type="submit" className={myStyles.btn}>
-            <p>SEND</p>
+            <p>{t("contact.button")}</p>
             <div className={myStyles.btnImg}>
               <Image
                 src="/img/send.svg"

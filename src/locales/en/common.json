@@ -1,0 +1,200 @@
+{
+  "nav": {
+    "contact": "CONTACT US",
+    "about": "ABOUT US",
+    "join": "JOIN US"
+  },
+  "main": {
+    "title": "THE NEXT GENERATION WALLET",
+    "description": "Combine wallets, keys and ID in one card. Explore the infinity in the future.",
+    "function": {
+      "title1": "Fingerprint Recognition",
+      "description1": "",
+      "title2": "Offline Wallet",
+      "description2": "",
+      "title3": "Support",
+      "description3": "",
+      "title4": "Lost",
+      "description4": ""
+    },
+    "what": {
+      "title": "WHAT CAN YOU DO WITH CAFECA?",
+      "ticket1": {
+        "title": "Financial industry",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": ""
+      },
+      "ticket2": {
+        "title": "Leasing industry",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": ""
+      },
+      "ticket3": {
+        "title": "Tourism",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": ""
+      },
+      "ticket4": {
+        "title": "",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": ""
+      }
+    },
+    "contact": {
+      "line1": "區塊鏈的世界充滿無限的可能，歡迎您與我們聯繫，運用我們的專業幫助您發展新興商機。",
+      "line2": " CAFECA 將帶您一起走向未來趨勢。",
+      "button": "CONTACT US"
+    },
+    "generation": {
+      "title": "THE NEW GENERATION BEGINS",
+      "ticket1": {
+        "title": "使用電子身分證的國家",
+        "description1": "超過",
+        "description2": "70",
+        "description3": "個"
+      },
+      "ticket2": {
+        "title": "區塊鏈 2022-2027 之 CAGR",
+        "description1": "58.4",
+        "description2": "%"
+      },
+      "ticket3": {
+        "title": "全球區塊鏈錢包使用者",
+        "description1": "6300",
+        "description2": "萬人"
+      }
+    },
+    "partner": {
+      "title": "OUR PARTNERS"
+    }
+  },
+  "hiring": {
+    "title": "WE ARE HIRING",
+    "job1": {
+      "name": "Front-End Engineer",
+      "detail1": "Full Time",
+      "detail2": "Salary : 50k - 70k TWD",
+      "detail3": "SongShan Dist., Taipei, Taiwan",
+      "description1": "開發並維護公司各項產品官方網站",
+      "description2": "Cafeca/ TideBit/ Boltchain / iSunTV 系列服務",
+      "description3": "確保公司各項產品品質",
+      "description4": "自動化測試流程建立與維護",
+      "description5": "持續提升單元測試覆蓋率",
+      "description6": "業界合作專案開發",
+      "description7": "學界合作技術研究",
+      "description8": "工作日誌與技術報告、技術規格、專案及專利文件撰寫",
+      "description9": "會議出席與簡報",
+      "requirement1": "熟悉 React、RxJS、Next.js 等前端開發框架",
+      "requirement2": "熟悉 Flutter APP 開發技術",
+      "requirement3": "熟悉 Babel、webpack、NPM 等常見的前端開發工具",
+      "requirement4": "熟悉以 UML 溝通與確認開發規格",
+      "requirement5": "良好英語閱讀及寫作能力",
+      "requirement6": "熟悉 Git flow 工作流程",
+      "requirement7": "能洞察軟體潛在問題",
+      "requirement8": "",
+      "requirement9": ""
+    },
+    "job2": {
+      "name": "Back-End Engineer",
+      "detail1": "Full Time",
+      "detail2": "Salary : 50k - 70k TWD",
+      "detail3": "SongShan Dist., Taipei, Taiwan",
+      "description1": "開發並維護公司各項產品官方網站",
+      "description2": "Cafeca/ TideBit/ Boltchain / iSunTV 系列服務",
+      "description3": "確保公司各項產品品質",
+      "description4": "自動化測試流程建立與維護",
+      "description5": "持續提升單元測試覆蓋率",
+      "description6": "業界合作專案開發",
+      "description7": "學界合作技術研究",
+      "description8": "工作日誌與技術報告、技術規格、專案及專利文件撰寫",
+      "description9": "會議出席與簡報",
+      "requirement1": "熟悉 React、RxJS、Next.js 等前端開發框架",
+      "requirement2": "熟悉 Flutter APP 開發技術",
+      "requirement3": "熟悉 Babel、webpack、NPM 等常見的前端開發工具",
+      "requirement4": "熟悉以 UML 溝通與確認開發規格",
+      "requirement5": "良好英語閱讀及寫作能力",
+      "requirement6": "熟悉 Git flow 工作流程",
+      "requirement7": "能洞察軟體潛在問題",
+      "requirement8": "",
+      "requirement9": ""
+    },
+    "job3": {
+      "name": "Tech Lead",
+      "detail1": "Full Time",
+      "detail2": "Salary : 80k - 120k TWD",
+      "detail3": "SongShan Dist., Taipei, Taiwan",
+      "description1": "主導公司各項產品開發準則",
+      "description2": "Cafeca/ TideBit/ Boltchain / iSunTV 系列服務",
+      "description3": "持續提升公司各項產品品質優化流程-Coding Style, Code Review, Working Guideline, War Room Rules ",
+      "description4": "持續改善企業軟體開發流程-Documentation, Design Requirement, System Analysis and Designing, Quality Assurance and Control",
+      "description5": "工作日誌與技術報告、技術規格、專案及專利文件撰寫與審查",
+      "description6": "會議出席、簡報、每月技術分享",
+      "description7": "",
+      "description8": "",
+      "description9": "",
+      "requirement1": "熟悉軟體工程",
+      "requirement2": "熟悉專案管理",
+      "requirement3": "熟悉技術研發",
+      "requirement4": "熟悉分散式運算與區塊鏈技術",
+      "requirement5": "熟悉以 UML 溝通與確認開發規格",
+      "requirement6": "良好英語閱讀及寫作能力",
+      "requirement7": "能洞察軟體潛在問題",
+      "requirement8": "具備良好溝通能力",
+      "requirement9": "具備問題解決能力與抗壓性"
+    },
+    "job4": {
+      "name": "Intern",
+      "detail1": "Part Time",
+      "detail2": "Salary : 30k - 40k TWD",
+      "detail3": "SongShan Dist., Taipei, Taiwan",
+      "description1": "參與並記錄開發品質審視會議",
+      "description2": "定期檢驗軟體品質並進行記錄",
+      "description3": "整理並歸檔客戶規格需求",
+      "description4": "撰寫規格文件與測試報告",
+      "description5": "開發自動化測試與單元測試",
+      "description6": "定期撰寫工作日誌與技術報告",
+      "description7": "會議出席與簡報",
+      "description8": "",
+      "description9": "",
+      "requirement1": "細心處事，文字表達能力佳",
+      "requirement2": "具備或願意自學 UML 知識",
+      "requirement3": "良好英語閱讀及寫作能力",
+      "requirement4": "能洞察軟體潛在問題",
+      "requirement5": "",
+      "requirement6": "",
+      "requirement7": "",
+      "requirement8": "",
+      "requirement9": ""
+    }
+  },
+  "contact": {
+    "title": "CONTACT US",
+    "name": "your name",
+    "company": "your company",
+    "email": "your email",
+    "phone": "your phone",
+    "type1": "技術詢問",
+    "type2": "合作洽談",
+    "type3": "報價詢問",
+    "type4": "其他",
+    "message": "your message",
+    "button": "SEND"
+  },
+  "team": {
+    "title": "",
+    "member1": {
+      "title": "",
+      "name": "",
+      "description": "",
+      "image": ""
+    }
+  }
+}
