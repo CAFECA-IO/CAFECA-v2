@@ -28,7 +28,8 @@
 }
 .languageOpen ul {
   flex-direction: column;
-  text-align: center;
+  opacity: 1;
+  transition: all 0.7s ease;
 }
 .languageOpen li {
   font: normal normal 18px/26px Noto Sans TC;
@@ -37,7 +38,8 @@
 }
 
 .languageClose ul {
-  display: none;
+  opacity: 0;
+  transition: all 0.7s ease;
 }
 
 @media (max-width: 991.99px) {
@@ -148,5 +150,9 @@
   .languageOpen::after,
   .languageClose::after {
     content: "\2335";
+    position: absolute;
+  }
+  .languageClose ul {
+    position: absolute;
   }
 }
