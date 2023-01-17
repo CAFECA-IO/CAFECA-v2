@@ -125,7 +125,8 @@
     border-left: 0.5px solid rgba(242, 242, 242, 0.5);
   }
 
-  .languageOpen ul {
+  .languageOpen ul,
+  .languageClose ul {
     position: absolute;
     width: 130px;
     top: 80px;
