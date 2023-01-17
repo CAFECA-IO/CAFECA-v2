@@ -1,8 +1,8 @@
 {
   "nav": {
-    "contact": "CONTACT US",
-    "about": "ABOUT US",
-    "join": "JOIN US"
+    "contact": "聯絡我們",
+    "about": "團隊介紹",
+    "join": "加入我們"
   },
   "main": {
     "title": "THE NEXT GENERATION WALLET",
@@ -78,6 +78,7 @@
   },
   "hiring": {
     "title": "WE ARE HIRING",
+    "button": "Apply",
     "job1": {
       "name": "Front-End Engineer",
       "detail1": "Full Time",

@@ -1,11 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { useTranslation } from "next-i18next";
 
 import myStyles from "../../styles/navbar.module.css";
 import LanguageSwitch from "../language/language";
 
 function MainNavbar() {
+  const { t } = useTranslation("common");
+
   //collapse選單收合
   const [showMenu, setShowMenu] = useState(false);
   const navToggler = () => {
@@ -37,17 +40,17 @@ function MainNavbar() {
         <ul>
           <li className={myStyles.navbarItem}>
             <Link href="/#contact_us" scroll={false} onClick={navToggler}>
-              CONTACT US
+              {t("nav.contact")}
             </Link>
           </li>
           <li className={myStyles.navbarItem}>
             <Link href="/about_us" scroll={false} onClick={navToggler}>
-              ABOUT US
+              {t("nav.about")}
             </Link>
           </li>
           <li className={myStyles.navbarItem}>
             <Link href="/hiring" scroll={false} onClick={navToggler}>
-              JOIN US
+              {t("nav.join")}
             </Link>
           </li>
 

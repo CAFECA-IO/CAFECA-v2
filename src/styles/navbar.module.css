@@ -25,21 +25,28 @@
 .languageOpen,
 .languageClose {
   text-align: center;
-}
-.languageOpen ul {
-  flex-direction: column;
-  opacity: 1;
-  transition: all 0.7s ease;
-}
-.languageOpen li {
-  font: normal normal 18px/26px Noto Sans TC;
-  font-size: medium;
-  color: #f2f2f2;
+  cursor: pointer;
 }
 
+.languageOpen ul,
+.languageClose ul {
+  flex-direction: column;
+  z-index: -1;
+}
+
+.languageOpen ul {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
 .languageClose ul {
   opacity: 0;
   transition: all 0.7s ease;
+}
+.languageOpen li,
+.languageClose li {
+  font: normal normal 18px/26px Noto Sans TC;
+  font-size: medium;
+  color: #f2f2f2;
 }
 
 @media (max-width: 991.99px) {
@@ -99,8 +106,21 @@
     display: none;
   }
 
-  .languageOpen li {
+  .languageOpen ul,
+  .languageClose ul {
+    position: relative;
+    z-index: 1;
+  }
+  .languageOpen li,
+  .languageClose li {
     padding: 10px;
+  }
+
+  .languageOpen ul {
+    max-height: 200px;
+  }
+  .languageClose ul {
+    max-height: 0;
   }
 }
 
@@ -129,15 +149,16 @@
   .languageClose ul {
     position: absolute;
     width: 130px;
-    top: 80px;
     right: 22px;
     background-color: rgba(62, 76, 94, 0.7);
   }
-  .languageOpen li:last-child {
+  .languageOpen li:last-child,
+  .languageClose li:last-child {
     margin: 4px;
     border-top: 0.5px solid rgba(242, 242, 242, 0.5);
   }
-  .languageOpen li {
+  .languageOpen li,
+  .languageClose li {
     padding: 2px;
   }
   .languageOpen li:hover {
@@ -150,10 +171,29 @@
   }
   .languageOpen::after,
   .languageClose::after {
-    content: "\2335";
+    content: "";
     position: absolute;
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 6px;
+    height: 6px;
+    border-left: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+  }
+
+  .languageOpen::after {
+    transform: rotate(-135deg);
+    transition: all 0.3s ease-in-out;
+  }
+  .languageClose::after {
+    transform: rotate(-45deg);
+    transition: all 0.5s ease;
+  }
+
+  .languageOpen ul {
+    top: 80px;
   }
   .languageClose ul {
-    position: absolute;
+    top: 40px;
   }
 }

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useState } from "react";
 
 import myStyles from "../../styles/hiring.module.css";
@@ -13,18 +12,21 @@ function HiringItems(props: any) {
   //收合
   const [showHiring, setShowHiring] = useState(false);
   const toggle = () => setShowHiring(!showHiring);
+  const itemStyle = showHiring
+    ? myStyles.hiring_item_open
+    : myStyles.hiring_item_close;
   const listStyle = showHiring ? myStyles.openHiring : myStyles.closeHiring;
   const btnStyle = showHiring
     ? myStyles.see_more_btn_open
     : myStyles.see_more_btn_close;
 
   //job detail
-  /*   const jobDetail = jobDetails.map((v) => {
+  const jobDetail = jobDetails.map((v) => {
     return <li>{t(`hiring.job1.detail${v}`)}</li>;
-  }); */
+  });
 
   return (
-    <div className={myStyles.hiring_item}>
+    <div className={itemStyle}>
       <div className={myStyles.hiring_main}>
         <h3>{props.name}</h3>
         <button className={myStyles.apply_btn}>

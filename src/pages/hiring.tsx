@@ -26,10 +26,8 @@ function HiringPage() {
     <main>
       <Layout>
         <div className={myStyles.container}>
-          <div className={myStyles.blue_light}>
-            <h2>{t("hiring.title")}</h2>
-            {hiringList}
-          </div>
+          <h2>{t("hiring.title")}</h2>
+          {hiringList}
         </div>
       </Layout>
     </main>

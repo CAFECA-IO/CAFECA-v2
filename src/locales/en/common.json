@@ -78,6 +78,7 @@
   },
   "hiring": {
     "title": "WE ARE HIRING",
+    "button": "Apply",
     "job1": {
       "name": "Front-End Engineer",
       "detail1": "Full Time",
