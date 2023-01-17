@@ -4,10 +4,17 @@ import { useState } from "react";
 
 import myStyles from "../../styles/hiring.module.css";
 
-const jobDetails = [1, 2, 3];
-
-function HiringItems(props: any) {
+function HiringItems(props: {
+  name: string;
+  details: string[];
+  descriptions: string[];
+  requirements: string[];
+}) {
   const { t } = useTranslation("common");
+
+  const jobDetails: string[] = props.details;
+  const jobDescriptions: string[] = props.descriptions;
+  const jobRequirements: string[] = props.requirements;
 
   //收合
   const [showHiring, setShowHiring] = useState(false);
@@ -20,15 +27,22 @@ function HiringItems(props: any) {
     ? myStyles.see_more_btn_open
     : myStyles.see_more_btn_close;
 
-  //job detail
-  const jobDetail = jobDetails.map((v) => {
-    return <li>{t(`hiring.job1.detail${v}`)}</li>;
-  });
+  //list
+  function getList(arr: string[]) {
+    const list = arr.map((v) => {
+      return <li key={v}>{t(v)}</li>;
+    });
+    return list;
+  }
+
+  const jobDetailList = getList(jobDetails);
+  const jobDescriptionList = getList(jobDescriptions);
+  const jobRequirementList = getList(jobRequirements);
 
   return (
     <div className={itemStyle}>
       <div className={myStyles.hiring_main}>
-        <h3>{props.name}</h3>
+        <h3>{t(`${props.name}`)}</h3>
         <button className={myStyles.apply_btn}>
           <p>Apply</p>
           <div className={myStyles.apply_btnImg}>
@@ -43,11 +57,7 @@ function HiringItems(props: any) {
         </button>
       </div>
       <div onClick={toggle} className={myStyles.hiring_detail}>
-        <ul>
-          <li>{props.detail1}</li>
-          <li>{props.detail2}</li>
-          <li>{props.detail3}</li>
-        </ul>
+        <ul>{jobDetailList}</ul>
 
         <Image
           src="/img/see_more.svg"
@@ -59,16 +69,10 @@ function HiringItems(props: any) {
       </div>
       <div className={listStyle}>
         <h4>Job descriptions</h4>
-        <ul>
-          <li>{t("hiring.job1.description1")}</li>
-          <li>{t("hiring.job1.description2")}</li>
-        </ul>
+        <ul>{jobDescriptionList}</ul>
 
         <h4>Requirements</h4>
-        <ul>
-          <li>{t("hiring.job1.requirement1")}</li>
-          <li>{t("hiring.job1.requirement2")}</li>
-        </ul>
+        <ul>{jobRequirementList}</ul>
       </div>
     </div>
   );
