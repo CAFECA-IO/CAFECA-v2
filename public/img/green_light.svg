@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="878.901" height="878.901" viewBox="0 0 878.901 878.901">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#006b7f" stop-opacity="0.698"/>
+      <stop offset="0.348" stop-color="#004957" stop-opacity="0.482"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path id="green-light-top" d="M439.451,0A438.075,438.075,0,1,1,268.4,34.534,438.067,438.067,0,0,1,439.451,0Z" fill="url(#radial-gradient)" style="mix-blend-mode: screen;isolation: isolate"/>
+</svg>

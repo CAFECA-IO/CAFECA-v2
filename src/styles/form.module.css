@@ -1,0 +1,134 @@
+.formTitle {
+  padding-top: 120px;
+  text-align: center;
+  font: normal normal 28px/27px Dosis;
+  color: #f2f2f2;
+}
+
+.formContainer {
+  padding: 90px 20px 90px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.formContent {
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_textbox,
+.input_textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  color: #ffffff;
+  font-size: medium;
+  background: #ffffff4d 0% 0% no-repeat padding-box;
+  border: 1px solid #1f8fff;
+}
+.input_textbox {
+  height: 50px;
+}
+.input_textarea {
+  height: auto;
+}
+.input_textbox::placeholder,
+.input_textarea::placeholder {
+  text-align: left;
+  font: normal normal 300 16px/45px Dosis;
+  color: #ffffff;
+  opacity: 70%;
+}
+.input_textbox:nth-child(1) {
+  margin-right: 25px;
+}
+
+.checkboxContainer {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.input_checkbox {
+  padding: 20px 0 20px 0;
+  display: inline-flex;
+  align-items: center;
+  font: normal normal 300 16px/30px Noto Sans TC;
+  color: #ffffff;
+  opacity: 70%;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.input_checkbox input {
+  display: none;
+}
+.input_checkbox span {
+  margin-right: 10px;
+  padding: 2px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #ffffff4d 0% 0% no-repeat padding-box;
+  border: 1px solid #1f8fff;
+}
+.input_checkbox span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 11px;
+  height: 6px;
+  transform: rotate(-45deg);
+  border-left: 2px solid #1f8fff;
+  border-bottom: 2px solid #1f8fff;
+  border-radius: 2px;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.input_checkbox input:checked + span::after {
+  opacity: 1;
+}
+
+.btn {
+  margin: auto;
+  width: 170px;
+  text-align: center;
+  font: normal normal 18px/27px Dosis;
+  font-size: medium;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #9600e0;
+  display: flex;
+  cursor: pointer;
+  position: relative;
+}
+.btn p {
+  margin: auto;
+  z-index: 1;
+}
+.btnImg {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: #9600e080;
+
+  transition: all 0.3s ease-out;
+}
+
+.btn:hover:before {
+  width: 100%;
+  background-color: #9600e0;
+}
