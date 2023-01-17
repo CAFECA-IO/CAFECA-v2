@@ -3,7 +3,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Layout from "../components/layout/layout";
 
 import myStyles from "../styles/hiring.module.css";
-import HiringItems from "../components/hiringItems/hiringItems";
+import HiringItems from "../components/hiring_items/hiring_items";
 
 const hiringItems = [1, 2, 3, 4];
 

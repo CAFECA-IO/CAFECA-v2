@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 import myStyles from "../../styles/navbar.module.css";
+import LanguageSwitch from "../language/language";
 
 function MainNavbar() {
   //collapse選單收合
@@ -34,18 +35,23 @@ function MainNavbar() {
 
       <div className={menuStyles}>
         <ul>
-          <li>
-            <Link href="/#contact_us" scroll={false}>
+          <li className={myStyles.navbarItem}>
+            <Link href="/#contact_us" scroll={false} onClick={navToggler}>
               CONTACT US
             </Link>
           </li>
-          <li>
-            <Link href="/about_us">ABOUT US</Link>
+          <li className={myStyles.navbarItem}>
+            <Link href="/about_us" scroll={false} onClick={navToggler}>
+              ABOUT US
+            </Link>
           </li>
-          <li>
-            <Link href="/hiring">JOIN US</Link>
+          <li className={myStyles.navbarItem}>
+            <Link href="/hiring" scroll={false} onClick={navToggler}>
+              JOIN US
+            </Link>
           </li>
-          <li>Language</li>
+
+          <LanguageSwitch />
         </ul>
       </div>
     </nav>
