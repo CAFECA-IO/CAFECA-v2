@@ -51,7 +51,7 @@
     "contact": {
       "line1": "區塊鏈的世界充滿無限的可能，歡迎您與我們聯繫，運用我們的專業幫助您發展新興商機。",
       "line2": " CAFECA 將帶您一起走向未來趨勢。",
-      "button": "CONTACT US"
+      "button": "聯絡我們"
     },
     "generation": {
       "title": "THE NEW GENERATION BEGINS",
@@ -77,7 +77,7 @@
     }
   },
   "hiring": {
-    "title": "WE ARE HIRING",
+    "title": "人才招募",
     "button": "Apply",
     "job1": {
       "name": "Front-End Engineer",

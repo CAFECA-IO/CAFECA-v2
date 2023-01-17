@@ -44,12 +44,12 @@ function MainNavbar() {
             </Link>
           </li>
           <li className={myStyles.navbarItem}>
-            <Link href="/about_us" scroll={false} onClick={navToggler}>
+            <Link href="/about_us" onClick={navToggler}>
               {t("nav.about")}
             </Link>
           </li>
           <li className={myStyles.navbarItem}>
-            <Link href="/hiring" scroll={false} onClick={navToggler}>
+            <Link href="/hiring" onClick={navToggler}>
               {t("nav.join")}
             </Link>
           </li>
