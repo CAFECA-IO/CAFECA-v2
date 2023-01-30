@@ -4,20 +4,21 @@ import Layout from "../components/layout/layout";
 
 import myStyles from "../styles/hiring.module.css";
 import HiringItems from "../components/hiring_items/hiring_items";
+import contents from "../../contents.json";
 
-const hiringItems = [1, 2, 3, 4];
+const jobList = contents;
 
 function HiringPage() {
   const { t } = useTranslation("common");
 
-  const hiringList = hiringItems.map((item) => {
+  const hiringList = jobList.map((item) => {
     return (
       <HiringItems
-        key={t(`hiring.job${item}.name`)}
-        name={t(`hiring.job${item}.name`)}
-        detail1={t(`hiring.job${item}.detail1`)}
-        detail2={t(`hiring.job${item}.detail2`)}
-        detail3={t(`hiring.job${item}.detail3`)}
+        key={item.name}
+        name={item.name}
+        details={item.details}
+        descriptions={item.descriptions}
+        requirements={item.requirements}
       />
     );
   });
@@ -26,10 +27,8 @@ function HiringPage() {
     <main>
       <Layout>
         <div className={myStyles.container}>
-          <div className={myStyles.blue_light}>
-            <h2>{t("hiring.title")}</h2>
-            {hiringList}
-          </div>
+          <h2>{t("hiring.title")}</h2>
+          {hiringList}
         </div>
       </Layout>
     </main>

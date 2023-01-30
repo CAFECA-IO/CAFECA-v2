@@ -1,8 +1,8 @@
 {
   "nav": {
-    "contact": "CONTACT US",
-    "about": "ABOUT US",
-    "join": "JOIN US"
+    "contact": "聯絡我們",
+    "about": "團隊介紹",
+    "join": "加入我們"
   },
   "main": {
     "title": "THE NEXT GENERATION WALLET",
@@ -78,6 +78,7 @@
   },
   "hiring": {
     "title": "WE ARE HIRING",
+    "button": "Apply",
     "job1": {
       "name": "Front-End Engineer",
       "detail1": "Full Time",
@@ -98,9 +99,7 @@
       "requirement4": "熟悉以 UML 溝通與確認開發規格",
       "requirement5": "良好英語閱讀及寫作能力",
       "requirement6": "熟悉 Git flow 工作流程",
-      "requirement7": "能洞察軟體潛在問題",
-      "requirement8": "",
-      "requirement9": ""
+      "requirement7": "能洞察軟體潛在問題"
     },
     "job2": {
       "name": "Back-End Engineer",
@@ -122,9 +121,7 @@
       "requirement4": "熟悉以 UML 溝通與確認開發規格",
       "requirement5": "良好英語閱讀及寫作能力",
       "requirement6": "熟悉 Git flow 工作流程",
-      "requirement7": "能洞察軟體潛在問題",
-      "requirement8": "",
-      "requirement9": ""
+      "requirement7": "能洞察軟體潛在問題"
     },
     "job3": {
       "name": "Tech Lead",
@@ -137,9 +134,6 @@
       "description4": "持續改善企業軟體開發流程-Documentation, Design Requirement, System Analysis and Designing, Quality Assurance and Control",
       "description5": "工作日誌與技術報告、技術規格、專案及專利文件撰寫與審查",
       "description6": "會議出席、簡報、每月技術分享",
-      "description7": "",
-      "description8": "",
-      "description9": "",
       "requirement1": "熟悉軟體工程",
       "requirement2": "熟悉專案管理",
       "requirement3": "熟悉技術研發",
@@ -162,17 +156,10 @@
       "description5": "開發自動化測試與單元測試",
       "description6": "定期撰寫工作日誌與技術報告",
       "description7": "會議出席與簡報",
-      "description8": "",
-      "description9": "",
       "requirement1": "細心處事，文字表達能力佳",
       "requirement2": "具備或願意自學 UML 知識",
       "requirement3": "良好英語閱讀及寫作能力",
-      "requirement4": "能洞察軟體潛在問題",
-      "requirement5": "",
-      "requirement6": "",
-      "requirement7": "",
-      "requirement8": "",
-      "requirement9": ""
+      "requirement4": "能洞察軟體潛在問題"
     }
   },
   "contact": {

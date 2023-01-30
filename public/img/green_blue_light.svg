@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1897.926" height="1079.926" viewBox="0 0 1897.926 1079.926">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#006b7f" stop-opacity="0.698"/>
+      <stop offset="0.348" stop-color="#004957" stop-opacity="0.482"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#003060"/>
+      <stop offset="1" stop-color="#000a13" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_1613" data-name="Group 1613" transform="translate(278.451 72.451)">
+    <path id="green-light-top" d="M439.451,0A438.075,438.075,0,1,1,268.4,34.534,438.067,438.067,0,0,1,439.451,0Z" transform="translate(-278.451 -72.451)" fill="url(#radial-gradient)" style="mix-blend-mode: screen;isolation: isolate"/>
+    <path id="blue-light-top" d="M419.476,0A418.163,418.163,0,1,1,256.2,32.964,418.156,418.156,0,0,1,419.476,0Z" transform="translate(780.524 168.524)" fill="url(#radial-gradient-2)" style="mix-blend-mode: screen;isolation: isolate"/>
+  </g>
+</svg>

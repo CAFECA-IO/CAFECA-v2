@@ -28,20 +28,21 @@
   padding-right: 20px;
   text-align: left;
   color: #ffffff;
+  font: normal normal 300 16px Dosis;
   font-size: medium;
   background: #ffffff4d 0% 0% no-repeat padding-box;
   border: 1px solid #1f8fff;
 }
 .input_textbox {
-  height: 50px;
+  min-height: 50px;
 }
 .input_textarea {
-  height: auto;
+  padding-top: 20px;
 }
 .input_textbox::placeholder,
 .input_textarea::placeholder {
   text-align: left;
-  font: normal normal 300 16px/45px Dosis;
+  font: normal normal 300 16px Dosis;
   color: #ffffff;
   opacity: 70%;
 }
