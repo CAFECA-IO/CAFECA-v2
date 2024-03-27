@@ -1,0 +1,187 @@
+{
+  "nav": {
+    "contact": "聯絡我們",
+    "about": "團隊介紹",
+    "join": "加入我們"
+  },
+  "main": {
+    "title": "THE NEXT GENERATION WALLET",
+    "description": "Combine wallets, keys and ID in one card. Explore the infinity in the future.",
+    "function": {
+      "title1": "指紋辨識功能",
+      "description1": "配有 AEIGS TECH 高性能內置指紋傳感器，將私鑰保存在卡片中，所有操作均是透過指紋解鎖錢包以使用私鑰，私鑰完全對外隔離，增加安全性，不必擔心個資遭竊取。",
+      "title2": "離線錢包",
+      "description2": "不同於以往的冷錢包，須連網交易，CAFECA 屬於完全的離線錢包，大幅提升交易安全性，並且搭配內置的低耗功能電子紙面板，可全面查看完整交易明細及帳戶。",
+      "title3": "支援各種裝置和貨幣",
+      "description3": "考量大量不同的使用者， CAFECA 同時適用於 Windows、Mac、IOS 和 Android 的 BLE/USB 模式搭配 APP 使用。並且支援 Bitcoin、Bitcoin cash、Ethereum、Litecoin 和 Ripple 等多種幣種。",
+      "title4": "不怕卡片遺失",
+      "description4": "CAFECA 使用我們的另一項專利技術，支援 RSA/ECC 金鑰運行，完善的備份卡片回復機制，，當你遺失卡片，需要找回錢包的時候，只需要再購入一張 CAFECA ，加上你的指紋，即可恢復。"
+    },
+    "what": {
+      "title": "WHAT CAN YOU DO WITH CAFECA?",
+      "ticket1": {
+        "title": "金融產業",
+        "description1": "符合銀行業界安全標準。",
+        "description2": "將多張不同的信用卡集結於一張，讓您的客戶省去繁雜的申請手續和厚重的錢包。",
+        "description3": "指紋身分驗證，再也不怕盜刷、盜領，解決傳統帳號密碼的認證機制所衍生出來的風險。",
+        "description4": "支援 RSA/ECC 金鑰運行，不怕卡片遺失，完善的卡片回復機制。"
+      },
+      "ticket2": {
+        "title": "租賃產業",
+        "description1": "使用 ERC-721 NFT 技術。",
+        "description2": "不論 Airbnb、共享汽機車、任何智能租借商品都可以進入區塊鏈的世界。",
+        "description3": "可交易，可租借，打破實體商品與虛擬世界的邊界。",
+        "description4": "隨時更換金鑰，轉換使用者，無須擔心鑰匙遺失，方便又安全。"
+      },
+      "ticket3": {
+        "title": "旅遊產業",
+        "description1": "支援機票/票券/通行證保存。",
+        "description2": "可做護照身分識別，指紋解鎖無阻暢通，無須擔心身分盜用或偽造身分。",
+        "description3": "訂房→付款→身分驗證→開門，一卡搞定，省去成本，給消費者 更便利的體驗。",
+        "description4": "出國不需再到處尋找票券，一卡在手四處暢遊。"
+      },
+      "ticket4": {
+        "title": "",
+        "description1": "指紋解鎖，不怕身分盜用。",
+        "description2": "集身分證/健保卡/戶口名簿/印章於一身，全球已超越 70 個國家開始使用 EID。",
+        "description3": "資訊整合，節省繁瑣的驗證工作，同時保障人民個資安全。",
+        "description4": "不論自然人或法人皆可進行不同身分管理。"
+      }
+    },
+    "contact": {
+      "line1": "區塊鏈的世界充滿無限的可能，歡迎您與我們聯繫，運用我們的專業幫助您發展新興商機。",
+      "line2": " CAFECA 將帶您一起走向未來趨勢。",
+      "button": "CONTACT US"
+    },
+    "generation": {
+      "title": "THE NEW GENERATION BEGINS",
+      "ticket1": {
+        "title": "使用電子身分證的國家",
+        "description1": "超過",
+        "description2": "70",
+        "description3": "個"
+      },
+      "ticket2": {
+        "title": "區塊鏈 2022-2027 之 CAGR",
+        "description1": "58.4",
+        "description2": "%"
+      },
+      "ticket3": {
+        "title": "全球區塊鏈錢包使用者",
+        "description1": "6300",
+        "description2": "萬人"
+      }
+    },
+    "partner": {
+      "title": "OUR PARTNERS"
+    }
+  },
+  "hiring": {
+    "title": "WE ARE HIRING",
+    "button": "Apply",
+    "job1": {
+      "name": "Front-End Engineer",
+      "detail1": "Full Time",
+      "detail2": "Salary : 50k - 70k TWD",
+      "detail3": "SongShan Dist., Taipei, Taiwan",
+      "description1": "開發並維護公司各項產品官方網站",
+      "description2": "Cafeca/ TideBit/ Boltchain / iSunTV 系列服務",
+      "description3": "確保公司各項產品品質",
+      "description4": "自動化測試流程建立與維護",
+      "description5": "持續提升單元測試覆蓋率",
+      "description6": "業界合作專案開發",
+      "description7": "學界合作技術研究",
+      "description8": "工作日誌與技術報告、技術規格、專案及專利文件撰寫",
+      "description9": "會議出席與簡報",
+      "requirement1": "熟悉 React、RxJS、Next.js 等前端開發框架",
+      "requirement2": "熟悉 Flutter APP 開發技術",
+      "requirement3": "熟悉 Babel、webpack、NPM 等常見的前端開發工具",
+      "requirement4": "熟悉以 UML 溝通與確認開發規格",
+      "requirement5": "良好英語閱讀及寫作能力",
+      "requirement6": "熟悉 Git flow 工作流程",
+      "requirement7": "能洞察軟體潛在問題"
+    },
+    "job2": {
+      "name": "Back-End Engineer",
+      "detail1": "Full Time",
+      "detail2": "Salary : 50k - 70k TWD",
+      "detail3": "SongShan Dist., Taipei, Taiwan",
+      "description1": "開發並維護公司各項產品官方網站",
+      "description2": "Cafeca/ TideBit/ Boltchain / iSunTV 系列服務",
+      "description3": "確保公司各項產品品質",
+      "description4": "自動化測試流程建立與維護",
+      "description5": "持續提升單元測試覆蓋率",
+      "description6": "業界合作專案開發",
+      "description7": "學界合作技術研究",
+      "description8": "工作日誌與技術報告、技術規格、專案及專利文件撰寫",
+      "description9": "會議出席與簡報",
+      "requirement1": "熟悉 React、RxJS、Next.js 等前端開發框架",
+      "requirement2": "熟悉 Flutter APP 開發技術",
+      "requirement3": "熟悉 Babel、webpack、NPM 等常見的前端開發工具",
+      "requirement4": "熟悉以 UML 溝通與確認開發規格",
+      "requirement5": "良好英語閱讀及寫作能力",
+      "requirement6": "熟悉 Git flow 工作流程",
+      "requirement7": "能洞察軟體潛在問題"
+    },
+    "job3": {
+      "name": "Tech Lead",
+      "detail1": "Full Time",
+      "detail2": "Salary : 80k - 120k TWD",
+      "detail3": "SongShan Dist., Taipei, Taiwan",
+      "description1": "主導公司各項產品開發準則",
+      "description2": "Cafeca/ TideBit/ Boltchain / iSunTV 系列服務",
+      "description3": "持續提升公司各項產品品質優化流程-Coding Style, Code Review, Working Guideline, War Room Rules ",
+      "description4": "持續改善企業軟體開發流程-Documentation, Design Requirement, System Analysis and Designing, Quality Assurance and Control",
+      "description5": "工作日誌與技術報告、技術規格、專案及專利文件撰寫與審查",
+      "description6": "會議出席、簡報、每月技術分享",
+      "requirement1": "熟悉軟體工程",
+      "requirement2": "熟悉專案管理",
+      "requirement3": "熟悉技術研發",
+      "requirement4": "熟悉分散式運算與區塊鏈技術",
+      "requirement5": "熟悉以 UML 溝通與確認開發規格",
+      "requirement6": "良好英語閱讀及寫作能力",
+      "requirement7": "能洞察軟體潛在問題",
+      "requirement8": "具備良好溝通能力",
+      "requirement9": "具備問題解決能力與抗壓性"
+    },
+    "job4": {
+      "name": "Intern",
+      "detail1": "Part Time",
+      "detail2": "Salary : 30k - 40k TWD",
+      "detail3": "SongShan Dist., Taipei, Taiwan",
+      "description1": "參與並記錄開發品質審視會議",
+      "description2": "定期檢驗軟體品質並進行記錄",
+      "description3": "整理並歸檔客戶規格需求",
+      "description4": "撰寫規格文件與測試報告",
+      "description5": "開發自動化測試與單元測試",
+      "description6": "定期撰寫工作日誌與技術報告",
+      "description7": "會議出席與簡報",
+      "requirement1": "細心處事，文字表達能力佳",
+      "requirement2": "具備或願意自學 UML 知識",
+      "requirement3": "良好英語閱讀及寫作能力",
+      "requirement4": "能洞察軟體潛在問題"
+    }
+  },
+  "contact": {
+    "title": "聯絡我們",
+    "name": "姓名",
+    "company": "公司名稱",
+    "email": "E-MAIL",
+    "phone": "聯絡電話",
+    "type1": "技術詢問",
+    "type2": "合作洽談",
+    "type3": "報價詢問",
+    "type4": "其他",
+    "message": "想說什麼...",
+    "button": "SEND"
+  },
+  "team": {
+    "title": "",
+    "member1": {
+      "title": "",
+      "name": "",
+      "description": "",
+      "image": ""
+    }
+  }
+}

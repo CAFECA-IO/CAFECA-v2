@@ -1,11 +1,7 @@
 [
   {
     "name": "hiring.job1.name",
-    "details": [
-      "hiring.job1.detail1",
-      "hiring.job1.detail2",
-      "hiring.job1.detail3"
-    ],
+    "details": ["hiring.job1.detail1", "hiring.job1.detail2", "hiring.job1.detail3"],
     "descriptions": [
       "hiring.job1.description1",
       "hiring.job1.description2",
@@ -29,11 +25,7 @@
   },
   {
     "name": "hiring.job2.name",
-    "details": [
-      "hiring.job2.detail1",
-      "hiring.job2.detail2",
-      "hiring.job2.detail3"
-    ],
+    "details": ["hiring.job2.detail1", "hiring.job2.detail2", "hiring.job2.detail3"],
     "descriptions": [
       "hiring.job2.description1",
       "hiring.job2.description2",
@@ -57,11 +49,7 @@
   },
   {
     "name": "hiring.job3.name",
-    "details": [
-      "hiring.job3.detail1",
-      "hiring.job3.detail2",
-      "hiring.job3.detail3"
-    ],
+    "details": ["hiring.job3.detail1", "hiring.job3.detail2", "hiring.job3.detail3"],
     "descriptions": [
       "hiring.job3.description1",
       "hiring.job3.description2",
@@ -84,11 +72,7 @@
   },
   {
     "name": "hiring.job4.name",
-    "details": [
-      "hiring.job4.detail1",
-      "hiring.job4.detail2",
-      "hiring.job4.detail3"
-    ],
+    "details": ["hiring.job4.detail1", "hiring.job4.detail2", "hiring.job4.detail3"],
     "descriptions": [
       "hiring.job4.description1",
       "hiring.job4.description2",
