@@ -232,10 +232,16 @@ module.exports = {
         '95vh': '95vh',
         '120vh': '120vh',
 
+        '50vw': '50vw',
+        '55vw': '55vw',
+        '60vw': '60vw',
+        '65vw': '65vw',
         '70vw': '70vw',
+        '75vw': '75vw',
         '80vw': '80vw',
         '85vw': '85vw',
         '90vw': '90vw',
+        '95vw': '95vw',
       },
       screens: {
         /* Info: (20240327 - Shirely) 等同於 @media (min-width: ...px) */

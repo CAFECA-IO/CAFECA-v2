@@ -6,7 +6,7 @@ const CtaSection = () => {
       <div className="flex justify-center items-center px-16 py-20 w-full font-bold leading-[110%] max-md:px-5 max-md:max-w-full">
         <div className="flex flex-col w-full max-w-[1120px] max-md:max-w-full">
           <div className="flex flex-col items-center justify-center p-10 max-md:px-5 max-md:max-w-full">
-            <div className="self-stretch text-5xl text-slate-800 max-md:max-w-full max-md:text-4xl text-center">
+            <div className="self-stretch text-5xl text-gray900 max-md:max-w-full max-md:text-4xl text-center">
               The Next-Generation ID Card - CAFECA
             </div>
             <div className="mt-4 text-xl font-semibold text-gray-500 max-md:max-w-full">

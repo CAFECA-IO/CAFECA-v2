@@ -34,7 +34,7 @@ const ContactFormSection = () => {
 
             <div className="flex relative flex-col mb-24 max-w-full w-[712px] max-md:mb-10 z-50 -mt-48">
               <div className="flex flex-col self-center max-w-full text-center w-[616px]">
-                <div className="justify-center text-5xl font-bold leading-[52.8px] text-slate-800 max-md:max-w-full max-md:text-4xl">
+                <div className="justify-center text-5xl font-bold leading-[52.8px] text-gray900 max-md:max-w-full max-md:text-4xl">
                   Get In Touch
                 </div>
                 <div className="mt-2 text-lg leading-6 text-gray-500 max-md:max-w-full">
@@ -45,27 +45,27 @@ const ContactFormSection = () => {
                 <div className="flex flex-col max-md:max-w-full">
                   <div className="flex gap-4 max-md:flex-wrap max-md:max-w-full">
                     <div className="flex flex-col flex-1">
-                      <div className="justify-center self-start py-1.5 font-bold text-slate-800">
+                      <div className="justify-center self-start py-1.5 font-bold text-gray900">
                         First Name
                       </div>
-                      <div className="flex flex-col justify-center items-start px-8 py-4 mt-2 text-gray-400 bg-white rounded-md border border-solid border-slate-800 max-md:px-5">
+                      <div className="flex flex-col justify-center items-start px-8 py-4 mt-2 text-gray-400 bg-white rounded-md border border-solid border-gray900 max-md:px-5">
                         <div className="justify-center py-1.5">Ex: Eric</div>
                       </div>
                     </div>
                     <div className="flex flex-col flex-1">
-                      <div className="justify-center self-start py-1.5 font-bold text-slate-800">
+                      <div className="justify-center self-start py-1.5 font-bold text-gray900">
                         Last Name
                       </div>
-                      <div className="flex flex-col justify-center items-start px-8 py-4 mt-2 text-gray-400 bg-white rounded-md border border-solid border-slate-800 max-md:px-5">
+                      <div className="flex flex-col justify-center items-start px-8 py-4 mt-2 text-gray-400 bg-white rounded-md border border-solid border-gray900 max-md:px-5">
                         <div className="justify-center py-1">Ex: Chang</div>
                       </div>
                     </div>
                   </div>
                   <div className="flex flex-col mt-4 max-md:max-w-full">
-                    <div className="justify-center self-start py-1.5 font-bold text-slate-800">
+                    <div className="justify-center self-start py-1.5 font-bold text-gray900">
                       Phone Number
                     </div>
-                    <div className="flex gap-5 px-8 py-4 mt-2 text-gray-400 whitespace-nowrap bg-white rounded-md border border-solid border-slate-800 max-md:flex-wrap max-md:px-5">
+                    <div className="flex gap-5 px-8 py-4 mt-2 text-gray-400 whitespace-nowrap bg-white rounded-md border border-solid border-gray900 max-md:flex-wrap max-md:px-5">
                       <img
                         loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/40c2635188b5534b35019b7ef634ae9fd34ef71c4c3bae044c900bdf1ba623ec?apiKey=0e17b0b875f041659e186639705112b1&"
@@ -75,10 +75,10 @@ const ContactFormSection = () => {
                     </div>
                   </div>
                   <div className="flex flex-col mt-4 whitespace-nowrap max-md:max-w-full">
-                    <div className="justify-center self-start py-1.5 font-bold text-slate-800">
+                    <div className="justify-center self-start py-1.5 font-bold text-gray900">
                       E-Mail
                     </div>
-                    <div className="flex gap-5 px-8 py-4 mt-2 text-gray-400 bg-white rounded-md border border-solid border-slate-800 max-md:flex-wrap max-md:px-5">
+                    <div className="flex gap-5 px-8 py-4 mt-2 text-gray-400 bg-white rounded-md border border-solid border-gray900 max-md:flex-wrap max-md:px-5">
                       <img
                         loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/f48d35a029e435c7dded6940ab7143b762a7279c089f6078fedc0ebd39a4a586?apiKey=0e17b0b875f041659e186639705112b1&"
@@ -88,10 +88,10 @@ const ContactFormSection = () => {
                     </div>
                   </div>
                   <div className="flex flex-col mt-4 max-md:max-w-full">
-                    <div className="justify-center self-start py-1 font-bold whitespace-nowrap text-slate-800">
+                    <div className="justify-center self-start py-1 font-bold whitespace-nowrap text-gray900">
                       Message
                     </div>
-                    <div className="flex flex-col justify-center items-start px-8 py-4 mt-2 text-gray-400 bg-white rounded-md border border-solid border-slate-800 max-md:px-5 max-md:max-w-full">
+                    <div className="flex flex-col justify-center items-start px-8 py-4 mt-2 text-gray-400 bg-white rounded-md border border-solid border-gray900 max-md:px-5 max-md:max-w-full">
                       <div className="justify-center py-1 mb-8">What do you want to tell us...</div>
                     </div>
                   </div>

@@ -8,7 +8,7 @@ const TextImgSection = () => {
           <div className="flex flex-col w-[43%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col justify-center self-stretch py-8 my-auto font-bold max-md:mt-10 max-md:max-w-full">
               <div className="flex flex-col max-md:max-w-full">
-                <div className="justify-center text-5xl leading-[52.8px] text-slate-800 max-md:max-w-full max-md:text-4xl max-md:leading-[49px]">
+                <div className="justify-center text-5xl leading-[52.8px] text-gray900 max-md:max-w-full max-md:text-4xl max-md:leading-[49px]">
                   <span className="text-primaryPurple">One-Time</span> KYC Only
                 </div>
                 <div className="mt-12 text-lg leading-6 text-gray-500 max-md:mt-10 max-md:max-w-full">

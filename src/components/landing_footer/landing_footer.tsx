@@ -6,7 +6,7 @@ const LandingFooter = () => {
   return (
     <div>
       {' '}
-      <div className="z-10 flex gap-5 justify-center px-10 py-6 bg-slate-800 max-md:flex-wrap max-md:px-5 lg:flex-row flex-col">
+      <div className="z-10 flex gap-5 justify-center px-10 py-6 bg-gray900 max-md:flex-wrap max-md:px-5 lg:flex-row flex-col">
         <div className="flex flex-1 gap-3 justify-start max-md:flex-wrap lg:flex-row flex-wrap flex-col">
           {/* Info: location information (20240327 - Shirley) */}
           <div className="flex gap-2 text-sm leading-5 text-right text-white items-center">

@@ -15,7 +15,7 @@ const ImgTextSection = () => {
           <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow justify-center py-8 max-md:mt-10 max-md:max-w-full">
               <div className="flex flex-col max-md:max-w-full">
-                <div className="justify-center text-4xl font-bold leading-10 text-slate-800 max-md:max-w-full">
+                <div className="justify-center text-4xl font-bold leading-10 text-gray900 max-md:max-w-full">
                   <span className="text-primaryPurple">Simple</span> Way To Prove Who You Are
                 </div>
                 <div className="mt-12 text-lg leading-6 text-gray-500 max-md:mt-10 max-md:max-w-full">
