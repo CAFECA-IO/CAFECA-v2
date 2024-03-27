@@ -28,7 +28,7 @@ const ContactFormSection = () => {
           </div> */}
             <img
               loading="lazy"
-              src="/elements/group_691.png"
+              src="/elements/group_691.svg"
               className="object-cover absolute inset-0 size-full bg-gray100"
             />
 

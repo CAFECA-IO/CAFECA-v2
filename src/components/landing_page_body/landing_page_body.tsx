@@ -12,12 +12,24 @@ const LandingPageBody = () => {
   return (
     <>
       <div>
-        <CtaSection />
-        <IntroCardsSection />
-        <TextImgSection />
-        <ImgTextSection />
-        <CarouselSection />
-        <ContactFormSection />
+        <div className="bg-gray100">
+          <CtaSection />
+        </div>
+        <div className="bg-gray100">
+          <IntroCardsSection />
+        </div>
+        <div className="bg-gray100">
+          <TextImgSection />
+        </div>
+        <div className="bg-gray100">
+          <ImgTextSection />
+        </div>
+        <div className="bg-gray100">
+          <CarouselSection />
+        </div>
+        <div className="bg-gray100">
+          <ContactFormSection />
+        </div>
       </div>
       {/* <LandingFooter /> */}
     </>

@@ -24,7 +24,8 @@ const CtaSection = () => {
           <div className="w-full flex justify-center relative overflow-x-hidden">
             {/* <div className=""> */}
             {/* <div className="relative mr-30rem"> */}
-            <div className="absolute top-0 left-1/10 shrink-0">
+            {/* Info: 白卡 (20240327 - Shirley) */}
+            <div className="absolute top-0 lg:left-1/10 shrink-0">
               <img
                 loading="lazy"
                 src="/elements/card_white.png"
@@ -32,7 +33,8 @@ const CtaSection = () => {
               />
             </div>
 
-            <div className="relative ml-1/2 shrink-0">
+            {/* Info: 黑卡 (20240327 - Shirley) */}
+            <div className="relative ml-10 lg:ml-1/2 shrink-0">
               {' '}
               <img
                 loading="lazy"
