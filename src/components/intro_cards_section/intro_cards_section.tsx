@@ -64,7 +64,7 @@ const IntroCardsSection = () => {
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca701ec44fc3db10362e2a0783e65dae4a20ba47f969a29f7007661e2d220b23?apiKey=0e17b0b875f041659e186639705112b1&"
-                className="mt-2 w-full md:w-50vw lg:w-full aspect-[1.11]"
+                className="mt-2 w-60vw md:w-50vw lg:w-full aspect-[1.11]"
               />
             </div>
           </div>
