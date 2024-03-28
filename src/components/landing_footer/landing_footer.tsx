@@ -1,6 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
-import {COPYRIGHT} from '../../constants/config';
+import {
+  CAFECA_ADDRESS_IN_ENGLISH,
+  CAFECA_ADDRESS_ON_GOOGLE_MAP,
+  REACT_APP_GITHUB_LINK,
+  CAFECA_PHONE_NUMBER,
+  COPYRIGHT,
+} from '../../constants/config';
+import Link from 'next/link';
 
 const LandingFooter = () => {
   return (
@@ -9,59 +16,61 @@ const LandingFooter = () => {
       <div className="z-10 flex gap-5 justify-center px-10 py-6 bg-gray900 max-md:flex-wrap max-md:px-5 lg:flex-row flex-col">
         <div className="flex flex-1 gap-3 justify-start max-md:flex-wrap lg:flex-row flex-wrap flex-col">
           {/* Info: location information (20240327 - Shirley) */}
-          <div className="flex gap-2 text-sm leading-5 text-right text-white items-center">
-            {/* Info: location svg (20240327 - Shirley) */}
-            <div className="shrink-0">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
-                fill="none"
-                viewBox="0 0 24 25"
-              >
-                <path
-                  stroke="#fff"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 13.468a3 3 0 100-6 3 3 0 000 6z"
-                  // className="fill-current text-blue-500"
-                ></path>
-                <path
-                  stroke="#fff"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 2.468a8 8 0 00-8 8c0 1.892.402 3.13 1.5 4.5l6.5 7.5 6.5-7.5c1.098-1.37 1.5-2.608 1.5-4.5a8 8 0 00-8-8z"
-                  // className="fill-current text-blue-500"
-                ></path>
-              </svg>
-            </div>
+          <Link href={CAFECA_ADDRESS_ON_GOOGLE_MAP || ''} target="_blank">
+            <div className="flex gap-2 text-sm leading-5 text-right text-white items-center">
+              {/* Info: location svg (20240327 - Shirley) */}
+              <div className="shrink-0">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="none"
+                  viewBox="0 0 24 25"
+                >
+                  <path
+                    stroke="#fff"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M12 13.468a3 3 0 100-6 3 3 0 000 6z"
+                    // className="fill-current text-blue-500"
+                  ></path>
+                  <path
+                    stroke="#fff"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M12 2.468a8 8 0 00-8 8c0 1.892.402 3.13 1.5 4.5l6.5 7.5 6.5-7.5c1.098-1.37 1.5-2.608 1.5-4.5a8 8 0 00-8-8z"
+                    // className="fill-current text-blue-500"
+                  ></path>
+                </svg>
+              </div>
 
-            <div className="my-auto w-fit">
-              13F.-6, No. 2, Ln. 150, Sec. 5, Xinyi Rd., Xinyi Dist., Taipei City 110416 , Taiwan
+              <div className="my-auto w-fit">{CAFECA_ADDRESS_IN_ENGLISH}</div>
             </div>
-          </div>
+          </Link>
           {/* Info: phone information (20240327 - Shirley) */}
-          <div className="flex gap-2 items-center my-auto text-sm leading-5 text-right text-white">
-            <div className="shrink-0">
-              {/* Info: phone svg (20240327 - Shirley) */}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="17"
-                height="18"
-                fill="none"
-                viewBox="0 0 17 18"
-              >
-                <path
-                  fill="#F2F2F2"
-                  d="M.833 7.33a18.466 18.466 0 009.566 9.293l.68.303a3.5 3.5 0 004.33-1.247l.889-1.324a1 1 0 00-.203-1.335l-3.012-2.43a.998.998 0 00-1.431.183l-.932 1.257a12.14 12.14 0 01-5.51-5.511l1.256-.932a1 1 0 00.183-1.431l-2.43-3.012A1 1 0 002.884.94l-1.333.894A3.5 3.5 0 00.314 6.19l.519 1.14z"
-                ></path>
-              </svg>
-            </div>
+          <Link href={`tel:${CAFECA_PHONE_NUMBER}`}>
+            <div className="flex gap-2 text-sm leading-5 text-right text-white items-center lg:mt-1">
+              <div className="shrink-0">
+                {/* Info: phone svg (20240327 - Shirley) */}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="18"
+                  fill="none"
+                  viewBox="0 0 17 18"
+                >
+                  <path
+                    fill="#F2F2F2"
+                    d="M.833 7.33a18.466 18.466 0 009.566 9.293l.68.303a3.5 3.5 0 004.33-1.247l.889-1.324a1 1 0 00-.203-1.335l-3.012-2.43a.998.998 0 00-1.431.183l-.932 1.257a12.14 12.14 0 01-5.51-5.511l1.256-.932a1 1 0 00.183-1.431l-2.43-3.012A1 1 0 002.884.94l-1.333.894A3.5 3.5 0 00.314 6.19l.519 1.14z"
+                  ></path>
+                </svg>
+              </div>
 
-            <div>+886-2-2700-1979</div>
-          </div>
+              <div className="my-auto w-fit">{CAFECA_PHONE_NUMBER}</div>
+            </div>
+          </Link>
           {/* Info: social media icons (20240327 - Shirley) */}
           <div className="flex items-center justify-start lg:justify-center gap-2">
             {/* Info: fb svg (20240327 - Shirley) */}
@@ -112,25 +121,27 @@ const LandingFooter = () => {
             </svg> */}
 
             {/* Info: github svg (20240327 - Shirley) */}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="25"
-              height="24"
-              fill="none"
-              viewBox="0 0 25 24"
-            >
-              <g clipPath="url(#clip0_1640_5301)">
-                <path
-                  fill="#fff"
-                  d="M12.467.048a12 12 0 00-12 12c0 5.304 3.444 9.804 8.208 11.4.6.096.792-.276.792-.6V20.82c-3.324.72-4.032-1.608-4.032-1.608-.552-1.392-1.332-1.764-1.332-1.764-1.092-.744.084-.72.084-.72 1.2.084 1.836 1.236 1.836 1.236 1.044 1.824 2.808 1.284 3.492.996.108-.78.42-1.308.756-1.608-2.664-.3-5.46-1.332-5.46-5.904 0-1.332.456-2.4 1.236-3.252-.12-.3-.54-1.548.12-3.168 0 0 1.008-.324 3.3 1.224.948-.264 1.98-.396 3-.396s2.052.132 3 .396c2.292-1.548 3.3-1.224 3.3-1.224.66 1.62.24 2.868.12 3.168.78.852 1.236 1.92 1.236 3.252 0 4.584-2.808 5.592-5.484 5.892.432.372.828 1.104.828 2.22v3.288c0 .324.192.708.804.6 4.764-1.608 8.196-6.096 8.196-11.4a12.001 12.001 0 00-12-12z"
-                ></path>
-              </g>
-              <defs>
-                <clipPath id="clip0_1640_5301">
-                  <path fill="#fff" d="M0 0H24V24H0z" transform="translate(.467)"></path>
-                </clipPath>
-              </defs>
-            </svg>
+            <Link href={REACT_APP_GITHUB_LINK || ''} target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="24"
+                fill="none"
+                viewBox="0 0 25 24"
+              >
+                <g clipPath="url(#clip0_1640_5301)">
+                  <path
+                    fill="#fff"
+                    d="M12.467.048a12 12 0 00-12 12c0 5.304 3.444 9.804 8.208 11.4.6.096.792-.276.792-.6V20.82c-3.324.72-4.032-1.608-4.032-1.608-.552-1.392-1.332-1.764-1.332-1.764-1.092-.744.084-.72.084-.72 1.2.084 1.836 1.236 1.836 1.236 1.044 1.824 2.808 1.284 3.492.996.108-.78.42-1.308.756-1.608-2.664-.3-5.46-1.332-5.46-5.904 0-1.332.456-2.4 1.236-3.252-.12-.3-.54-1.548.12-3.168 0 0 1.008-.324 3.3 1.224.948-.264 1.98-.396 3-.396s2.052.132 3 .396c2.292-1.548 3.3-1.224 3.3-1.224.66 1.62.24 2.868.12 3.168.78.852 1.236 1.92 1.236 3.252 0 4.584-2.808 5.592-5.484 5.892.432.372.828 1.104.828 2.22v3.288c0 .324.192.708.804.6 4.764-1.608 8.196-6.096 8.196-11.4a12.001 12.001 0 00-12-12z"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1640_5301">
+                    <path fill="#fff" d="M0 0H24V24H0z" transform="translate(.467)"></path>
+                  </clipPath>
+                </defs>
+              </svg>
+            </Link>
           </div>
         </div>
         <div className="my-auto text-sm leading-5 text-right text-white max-md:max-w-full">

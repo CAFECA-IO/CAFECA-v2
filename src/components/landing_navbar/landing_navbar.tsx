@@ -11,9 +11,9 @@ const LandingNavbar = () => {
 
   return (
     <div>
-      <div className="flex gap-5 justify-between px-20 py-4 w-full text-lg font-bold leading-6 text-gray600 bg-gray100 max-md:flex-col flex-row max-md:px-5 max-md:max-w-full">
+      <div className="flex gap-5 justify-between px-20 py-4 w-full text-lg font-bold leading-6 text-gray600 bg-gray100 flex-col lg:flex-row max-md:px-5 max-md:max-w-full">
         {/* Info: desktop (logo and navlinks) (20240328 - Shirley) */}
-        <Link href={CAFECA_URL.HOME} className="items-center flex justify-center">
+        <Link href={CAFECA_URL.HOME} className="items-center lg:flex justify-center hidden">
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/f2ca1b7d504f5034aa6c0db2e3c0c99d2fb8f83ced88499c057df393734137e4?apiKey=0e17b0b875f041659e186639705112b1&"
@@ -61,11 +61,11 @@ const LandingNavbar = () => {
             </div>
           </Link>
 
-          <img
+          {/* <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/8f5663ae0161b9ee6feedc8cad881acde56a2c14a708df2de4d4d0d984dc9959?apiKey=0e17b0b875f041659e186639705112b1&"
             className="shrink-0 aspect-square w-[60px] mx-auto"
-          />
+          /> */}
         </div>
       </div>
     </div>
