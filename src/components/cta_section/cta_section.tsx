@@ -1,6 +1,18 @@
-import React from 'react';
+import {useEffect, useRef, useState} from 'react';
 
-const CtaSection = () => {
+const CTASection = () => {
+  const animeRef1 = useRef(null);
+  const [isAnimeRef1Visible, setIsAnimeRef1Visible] = useState(false);
+
+  useEffect(() => {
+    const waitForCTA = setTimeout(() => {
+      setIsAnimeRef1Visible(true);
+    }, 500);
+    return () => {
+      clearTimeout(waitForCTA);
+    };
+  }, []);
+
   return (
     <div>
       <div className="flex justify-center items-center px-16 py-20 w-full font-bold leading-[110%] max-md:px-5 max-md:max-w-full">
@@ -21,25 +33,30 @@ const CtaSection = () => {
               />
             </div>
           </div>
-          <div className="w-full flex justify-center relative overflow-x-hidden">
+          <div className="w-full flex justify-center relative overflow-x-hidden" ref={animeRef1}>
             {/* <div className=""> */}
             {/* <div className="relative mr-30rem"> */}
             {/* Info: 白卡 (20240327 - Shirley) */}
-            <div className="absolute top-0 lg:left-1/10 shrink-0">
+            <div
+              className={`absolute -top-2 lg:left-1/11 xl:left-1/8 md:-left-5 shrink-0 ${isAnimeRef1Visible ? `translate-x-0` : `translate-x-10% md:translate-x-15% lg:translate-x-20%`} duration-1000`}
+              // className={`flex justify-center items-start absolute -top-2 ${isAnimeRef1Visible ? `left-1/2 transform -translate-x-1/2` : `left-1/2 transform -translate-x-[calc(50%+10%)] md:-translate-x-[calc(50%+8%)] lg:-translate-x-[calc(50%-30%)]`} duration-1000`}
+            >
               <img
                 loading="lazy"
                 src="/elements/card_white.png"
-                className="mt-6 w-full aspect-[4/3]" // w-1/2 lg:
+                className="mt-6 max-w-[300px] md:max-w-4/5 mx-auto aspect-[4/3]"
               />
             </div>
 
             {/* Info: 黑卡 (20240327 - Shirley) */}
-            <div className="relative ml-10 lg:ml-1/2 shrink-0">
+            <div
+              className={`relative ml-1/3 lg:ml-2/5 xl:ml-1/3 shrink-0 ${isAnimeRef1Visible ? `translate-x-0` : `-translate-x-10% md:-translate-x-15% lg:-translate-x-20%`} duration-1000`}
+            >
               {' '}
               <img
                 loading="lazy"
                 src="/elements/card_black.png"
-                className="mt-6 w-full aspect-[4/3]"
+                className="mt-6 max-w-[300px] md:max-w-4/5 mx-auto  aspect-[4/3]"
               />
             </div>
           </div>
@@ -50,4 +67,4 @@ const CtaSection = () => {
   );
 };
 
-export default CtaSection;
+export default CTASection;

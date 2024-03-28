@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image'; // Add this import
-import CtaSection from '../cta_section/cta_section';
+import CTASection from '../cta_section/cta_section';
 import IntroCardsSection from '../intro_cards_section/intro_cards_section';
 import TextImgSection from '../text_img_section/text_img_section';
 import ImgTextSection from '../img_text_section/img_text_section';
@@ -13,7 +13,7 @@ const LandingPageBody = () => {
     <>
       <div>
         <div className="bg-gray100">
-          <CtaSection />
+          <CTASection />
         </div>
         <div className="bg-gray100">
           <IntroCardsSection />

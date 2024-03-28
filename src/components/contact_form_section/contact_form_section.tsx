@@ -3,7 +3,7 @@ import React from 'react';
 
 const ContactFormSection = () => {
   return (
-    <div className="relative h-[1440px]">
+    <div id="contact-us" className="relative h-1440px">
       <div className="absolute top-0 h-500px w-full">
         {' '}
         <Image
