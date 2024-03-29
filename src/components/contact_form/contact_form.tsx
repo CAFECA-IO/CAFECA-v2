@@ -16,8 +16,8 @@ const ContactForm = () => {
   const [inputMessage, setInputMessage] = useState('');
   const [emailValid, setEmailValid] = useState(true);
 
-  const [showAnim, setShowAnim] = useState(true); // false
-  const [animation, setAnimation] = useState(Animation.ERROR);
+  const [showAnim, setShowAnim] = useState(false);
+  const [animation, setAnimation] = useState(Animation.LOADING);
 
   const emailRule = /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z]+$/;
   const emailIsValid = emailRule.test(inputEmail);
@@ -288,110 +288,7 @@ const ContactForm = () => {
     </div>
   );
 
-  // const animePart = (
-  //   <div
-  //     className={`${
-  //       showAnim ? 'relative' : 'hidden'
-  //     } flex relative flex-col mb-24 max-w-[330px] sm:max-w-full mx-auto lg:w-[712px] max-md:mb-10 z-50 -mt-48`}
-  //   >
-  //     <div
-  //       className={`${
-  //         showAnim ? 'relative' : 'hidden'
-  //       } flex flex-col self-center max-w-full text-center w-[616px]`}
-  //     >
-  //       <div className="justify-center text-5xl font-bold leading-[52.8px] text-gray900 max-md:max-w-full max-md:text-4xl">
-  //         Get In Touch
-  //       </div>
-  //       <div className="mt-2 text-lg leading-6 text-gray-500 max-md:max-w-full">
-  //         Please fill the form below, we will reply you as soon as possible.
-  //       </div>
-  //     </div>{' '}
-  //     {/* Info: Animation part */}
-  //     <div
-  //       className={`${
-  //         showAnim ? 'relative' : 'hidden'
-  //       } flex flex-col self-center max-w-full text-center w-[616px] mt-20`}
-  //     >
-  //       {animation === Animation.LOADING ? (
-  //         // <div className="flex flex-col items-center space-y-10">
-  //         //   <img
-  //         //     src="/animations/Loading.svg"
-  //         //     width={100}
-  //         //     height={100}
-  //         //     alt="loading_animation"
-  //         //   />
-  //         //   <p className="text-sm">Sending...</p>
-  //         // </div>
-
-  //         <div className="h-[800px] flex justify-center items-center px-16 py-20 text-base leading-6 text-center whitespace-nowrap bg-white rounded-3xl shadow-2xl max-w-[712px] text-gray900 max-md:px-5">
-  //           <div className="flex flex-col mt-56 w-[69px] max-md:mt-10">
-  //             {/* <img
-  //                   loading="lazy"
-  //                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/f5cbf45b488adbe517dd6656e2f67c09e5315f4ba885790f96aded326fe7ded8?apiKey=0e17b0b875f041659e186639705112b1&"
-  //                   className="self-center w-12 aspect-square"
-  //                 /> */}
-  //             <SpinnerAnimation />
-  //             <div></div>
-  //             <div className="mt-9">Sending...</div>
-  //           </div>
-  //         </div>
-  //       ) : animation === Animation.SUCCESS ? (
-  //         // <div className="flex flex-col items-center space-y-10">
-  //         //   <img
-  //         //     src="/animations/success.gif"
-  //         //     width={150}
-  //         //     height={150}
-  //         //     alt="loading_animation"
-  //         //   />
-  //         //   <p className="text-sm">Message sent successfully!</p>
-  //         // </div>
-  //         <div className="flex flex-col items-center py-20 font-bold bg-white rounded-3xl shadow-2xl max-w-[712px]">
-  //           <div className="shrink-0 mt-14 h-[124px] w-[124px] max-md:mt-10" />
-  //           <div className="flex flex-col self-stretch px-5 mt-3 text-center leading-[110%] max-md:max-w-full space-y-3">
-  //             <div className="w-full text-6xl text-primaryPurple max-md:max-w-full max-md:text-4xl">
-  //               Thank You
-  //             </div>
-  //             <div className="mt-2 w-full text-4xl text-gray900 max-md:max-w-full">
-  //               Your request is sent
-  //             </div>
-  //           </div>
-  //           <div className="mt-5 text-base leading-6 text-center text-gray900 w-[504px]">
-  //             Our team will contact you as soon as possible.
-  //             <br />
-  //             Thank you for your patience.
-  //           </div>
-  //           <button className="flex gap-2 justify-center px-12 py-4 mt-28 text-base leading-6 whitespace-nowrap bg-primaryPurple hover:bg-primaryPurpleHover rounded-xl text-gray50 max-md:px-5 max-md:mt-10">
-  //             <img
-  //               loading="lazy"
-  //               src="https://cdn.builder.io/api/v1/image/assets/TEMP/a126d09900cde217aa14ba46ca121a6cd6d5cb24a9de88946d6be6e6ec23bfd1?apiKey=0e17b0b875f041659e186639705112b1&"
-  //               className="shrink-0 w-6 aspect-square"
-  //             />
-  //             <div>Back</div>
-  //           </button>
-  //         </div>
-  //       ) : animation === Animation.ERROR ? (
-  //         <div className="flex flex-col items-center">
-  //           <img src="/animations/error.gif" width={100} height={100} alt="error_animation" />
-  //           <p className="text-sm">Failed to send message.</p>
-  //           <button
-  //             type="button"
-  //             onClick={retryHandler}
-  //             className="mt-6 rounded-lg bg-primaryPurple px-10 py-3 text-white hover:bg-primaryPurpleHover"
-  //           >
-  //             Try Again
-  //           </button>
-  //         </div>
-  //       ) : null}
-  //     </div>
-  //   </div>
-  // );
-
-  return (
-    <div>
-      {/* {animePart} */}
-      {formPart}
-    </div>
-  );
+  return <div>{formPart}</div>;
 };
 
 export default ContactForm;
