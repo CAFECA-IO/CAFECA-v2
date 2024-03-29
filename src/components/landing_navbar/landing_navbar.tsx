@@ -30,9 +30,9 @@ const LandingNavbar = () => {
               className="shrink-0 my-auto max-w-full aspect-[3.33] w-[120px]"
             />
           </Link>
-          <div className="flex lg:hidden">
+          <button className="flex lg:hidden hover:opacity-80">
             <RxHamburgerMenu onClick={handleMenuOpen} size={30} />
-          </div>
+          </button>
         </div>
 
         <div

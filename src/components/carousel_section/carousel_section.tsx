@@ -28,19 +28,19 @@ const CarouselSection = () => {
             {' '}
             <Carousel autoSlide>
               {slides1.map((slide, i) => (
-                // <img key={i} src={slide} alt={`slide-${i}`} />
-                <div
-                  key={i}
-                  className="relative w-300px md:w-600px lg:w-800px aspect-[10/3]"
-                  style={{paddingBottom: '56.25%'}}
-                >
-                  <Image
-                    src={slide}
-                    alt={`slide-${i}`}
-                    fill
-                    style={{objectFit: 'cover', objectPosition: 'center'}}
-                  />
-                </div>
+                <img key={i} src={slide} alt={`slide-${i}`} />
+                // <div
+                //   key={i}
+                //   className="relative w-300px md:w-600px lg:w-800px aspect-[10/3]"
+                //   style={{paddingBottom: '56.25%'}}
+                // >
+                //   <Image
+                //     src={slide}
+                //     alt={`slide-${i}`}
+                //     fill
+                //     style={{objectFit: 'cover', objectPosition: 'center'}}
+                //   />
+                // </div>
               ))}
             </Carousel>
           </div>
