@@ -263,7 +263,7 @@ module.exports = {
       },
       backgroundImage: {
         contact_bg: "url('/animations/contact_bg.svg')",
-        contact_bg_2: "url('/animations/contact_bg_2.svg')",
+        contact_bg_static: "url('/elements/anime_1.svg')",
       },
       translate: {
         '5%': '5%',

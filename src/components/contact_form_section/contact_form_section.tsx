@@ -5,8 +5,11 @@ import ContactForm from '../contact_form/contact_form';
 const ContactFormSection = () => {
   return (
     <div id="contact-us" className="relative h-1440px">
-      {/* Info: svg animation (20240329 - Shirley) */}
-      <div className="absolute z-10 h-1/2 w-full bg-contact_bg bg-cover bg-no-repeat"></div>
+      {/* Info: svg animation as background (20240329 - Shirley) */}
+      <div className="absolute z-10 h-1/2 w-full bg-contact_bg bg-cover bg-no-repeat lg:block hidden"></div>
+
+      {/* Info: static svg background (20240329 - Shirley) */}
+      <div className="absolute z-10 h-1/2 w-full bg-contact_bg_static bg-cover bg-no-repeat block lg:hidden"></div>
 
       <div className="absolute top-0 h-500px w-full">
         {' '}
