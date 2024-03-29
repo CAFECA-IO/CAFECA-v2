@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import {useEffect, useRef, useState} from 'react';
 import {CAFECA_URL} from '../../constants/config';
-import Image from 'next/image';
 
 const CTASection = () => {
   const animeRef1 = useRef(null);
@@ -56,6 +55,7 @@ const CTASection = () => {
                 src="/elements/card_white.png"
                 className="mt-6 max-w-[300px] md:max-w-4/5 mx-auto aspect-[4/3]"
               />
+              {/* TODO: optimize with <Image> (20240329 - Shirley) */}
               {/* <div className="mt-6 max-w-[300px] md:max-w-4/5 mx-auto aspect-[4/3] relative">
                 <Image
                   src="/elements/card_white.png"
@@ -76,6 +76,7 @@ const CTASection = () => {
                 src="/elements/card_black.png"
                 className="mt-6 max-w-[300px] md:max-w-4/5 mx-auto  aspect-[4/3]"
               />
+              {/* TODO: optimize with <Image> (20240329 - Shirley) */}
               {/* <div className="mt-6 max-w-[300px] md:max-w-4/5 mx-auto aspect-[4/3] relative">
                 <Image
                   src="/elements/card_black.png"

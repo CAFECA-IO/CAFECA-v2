@@ -8,13 +8,14 @@ import {
   COPYRIGHT,
 } from '../../constants/config';
 import Link from 'next/link';
+import {FaPhoneAlt} from 'react-icons/fa';
 
 const LandingFooter = () => {
   return (
     <div>
       {' '}
       <div className="z-10 flex gap-5 justify-center px-10 py-6 bg-gray900 max-md:flex-wrap max-md:px-5 lg:flex-row flex-col">
-        <div className="flex flex-1 gap-3 justify-start max-md:flex-wrap lg:flex-row flex-wrap flex-col">
+        <div className="flex flex-1 items-start gap-5 lg:gap-3 justify-start max-md:flex-wrap lg:flex-row flex-wrap flex-col">
           {/* Info: location information (20240327 - Shirley) */}
           <Link href={CAFECA_ADDRESS_ON_GOOGLE_MAP || ''} target="_blank">
             <div className="flex gap-2 text-sm leading-5 text-right text-white items-center">
@@ -25,7 +26,7 @@ const LandingFooter = () => {
                   width="25"
                   height="25"
                   fill="none"
-                  viewBox="0 0 24 25"
+                  viewBox="0 0 25 25"
                 >
                   <path
                     stroke="#fff"
@@ -46,29 +47,31 @@ const LandingFooter = () => {
                 </svg>
               </div>
 
-              <div className="my-auto w-fit">{CAFECA_ADDRESS_IN_ENGLISH}</div>
+              <div className="my-auto w-fit text-start">{CAFECA_ADDRESS_IN_ENGLISH}</div>
             </div>
           </Link>
           {/* Info: phone information (20240327 - Shirley) */}
           <Link href={`tel:${CAFECA_PHONE_NUMBER}`}>
-            <div className="flex gap-2 text-sm leading-5 text-right text-white items-center lg:mt-1">
-              <div className="shrink-0">
+            <div className="flex gap-2 text-sm leading-5 text-right text-white items-center">
+              <div className="shrink-0 flex items-center justify-center mx-auto w-25px h-25px">
                 {/* Info: phone svg (20240327 - Shirley) */}
-                <svg
+                <FaPhoneAlt size={20} />
+
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="17"
-                  height="18"
+                  width="16"
+                  height="16"
                   fill="none"
-                  viewBox="0 0 17 18"
+                  viewBox="0 0 16 16"
                 >
                   <path
                     fill="#F2F2F2"
                     d="M.833 7.33a18.466 18.466 0 009.566 9.293l.68.303a3.5 3.5 0 004.33-1.247l.889-1.324a1 1 0 00-.203-1.335l-3.012-2.43a.998.998 0 00-1.431.183l-.932 1.257a12.14 12.14 0 01-5.51-5.511l1.256-.932a1 1 0 00.183-1.431l-2.43-3.012A1 1 0 002.884.94l-1.333.894A3.5 3.5 0 00.314 6.19l.519 1.14z"
                   ></path>
-                </svg>
+                </svg> */}
               </div>
 
-              <div className="my-auto w-fit">{CAFECA_PHONE_NUMBER}</div>
+              <div className="my-auto w-fit text-end">{CAFECA_PHONE_NUMBER}</div>
             </div>
           </Link>
           {/* Info: social media icons (20240327 - Shirley) */}
@@ -125,9 +128,9 @@ const LandingFooter = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
-                height="24"
+                height="25"
                 fill="none"
-                viewBox="0 0 25 24"
+                viewBox="0 0 25 25"
               >
                 <g clipPath="url(#clip0_1640_5301)">
                   <path

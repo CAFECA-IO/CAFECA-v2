@@ -29,6 +29,7 @@ const CarouselSection = () => {
             <Carousel autoSlide>
               {slides1.map((slide, i) => (
                 <img key={i} src={slide} alt={`slide-${i}`} />
+                // Info: 使用 <Image> 會遇到實際上在手機瀏覽時，全部圖片擠在一個 slide 的問題，因此改用 <img> (20240329 - Shirley)
                 // <div
                 //   key={i}
                 //   className="relative w-300px md:w-600px lg:w-800px aspect-[10/3]"
@@ -44,15 +45,6 @@ const CarouselSection = () => {
               ))}
             </Carousel>
           </div>
-
-          {/* <div className="absolute -top-20 h-220px w-220px">
-            <Image
-              src={slides1[0]}
-              alt={slides1[0]}
-              fill
-              style={{objectFit: 'cover', objectPosition: 'center bottom'}}
-            />
-          </div> */}
         </div>
       </div>
     </div>
