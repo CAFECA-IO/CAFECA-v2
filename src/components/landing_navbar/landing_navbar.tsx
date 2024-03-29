@@ -16,7 +16,7 @@ const LandingNavbar = () => {
         <Link href={CAFECA_URL.HOME} className="items-center lg:flex justify-center hidden">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/f2ca1b7d504f5034aa6c0db2e3c0c99d2fb8f83ced88499c057df393734137e4?apiKey=0e17b0b875f041659e186639705112b1&"
+            src="/logos/ogo.svg"
             className="shrink-0 my-auto max-w-full aspect-[3.33] w-[120px]"
           />
         </Link>
@@ -26,7 +26,7 @@ const LandingNavbar = () => {
           <Link href={CAFECA_URL.HOME} className="items-center flex justify-center">
             <img
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/f2ca1b7d504f5034aa6c0db2e3c0c99d2fb8f83ced88499c057df393734137e4?apiKey=0e17b0b875f041659e186639705112b1&"
+              src="/logos/ogo.svg"
               className="shrink-0 my-auto max-w-full aspect-[3.33] w-[120px]"
             />
           </Link>
@@ -60,12 +60,6 @@ const LandingNavbar = () => {
               Contact Us
             </div>
           </Link>
-
-          {/* <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/8f5663ae0161b9ee6feedc8cad881acde56a2c14a708df2de4d4d0d984dc9959?apiKey=0e17b0b875f041659e186639705112b1&"
-            className="shrink-0 aspect-square w-[60px] mx-auto"
-          /> */}
         </div>
       </div>
     </div>

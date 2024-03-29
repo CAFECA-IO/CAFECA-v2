@@ -21,7 +21,7 @@ const IntroCardsSection = () => {
 
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca2817f59fcae29396d164b32ec92e54381b5634e51de37374e63a421a3ae1ae?apiKey=0e17b0b875f041659e186639705112b1&"
+                src="/elements/fingerprint.svg"
                 className="self-center mt-2 max-w-full aspect-square w-[230px] lg:w-full lg:px-10 2xl:px-20 3xl:px-28"
               />
             </div>
@@ -42,7 +42,7 @@ const IntroCardsSection = () => {
               <div className="flex flex-col justify-center mx-0 mt-2 max-lg:mx-0">
                 <img
                   loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/870ab4cf20aeded001f1f5733b0ba921ecc68b954d54c49876e4025ee60a77d3?apiKey=0e17b0b875f041659e186639705112b1&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/870ab4cf20aeded001f1f5733b0ba921ecc68b954d54c49876e4025ee60a77d3?apiKey=0e17b0b875f041659e186639705112b1&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/870ab4cf20aeded001f1f5733b0ba921ecc68b954d54c49876e4025ee60a77d3?apiKey=0e17b0b875f041659e186639705112b1&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/870ab4cf20aeded001f1f5733b0ba921ecc68b954d54c49876e4025ee60a77d3?apiKey=0e17b0b875f041659e186639705112b1&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/870ab4cf20aeded001f1f5733b0ba921ecc68b954d54c49876e4025ee60a77d3?apiKey=0e17b0b875f041659e186639705112b1&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/870ab4cf20aeded001f1f5733b0ba921ecc68b954d54c49876e4025ee60a77d3?apiKey=0e17b0b875f041659e186639705112b1&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/870ab4cf20aeded001f1f5733b0ba921ecc68b954d54c49876e4025ee60a77d3?apiKey=0e17b0b875f041659e186639705112b1&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/870ab4cf20aeded001f1f5733b0ba921ecc68b954d54c49876e4025ee60a77d3?apiKey=0e17b0b875f041659e186639705112b1&"
+                  src="/elements/card.png"
                   className="w-screen md:w-50vw lg:w-screen aspect-[1.09]"
                 />
               </div>
@@ -63,7 +63,7 @@ const IntroCardsSection = () => {
               </div>
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca701ec44fc3db10362e2a0783e65dae4a20ba47f969a29f7007661e2d220b23?apiKey=0e17b0b875f041659e186639705112b1&"
+                src="/elements/pic.png"
                 className="mt-2 w-60vw md:w-50vw lg:w-full aspect-[1.11]"
               />
             </div>

@@ -266,6 +266,7 @@ module.exports = {
         contact_bg_2: "url('/animations/contact_bg_2.svg')",
       },
       translate: {
+        '5%': '5%',
         '10%': '10%',
         '15%': '15%',
         '20%': '20%',

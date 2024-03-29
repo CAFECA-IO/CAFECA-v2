@@ -8,7 +8,7 @@ const ImgTextSection = () => {
           <div className="flex flex-col w-6/12 max-lg:ml-0 max-lg:w-full">
             <img
               loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/ea8901ae12d5f2305f993509f042e38f40f82c78c8ec6b914095e23800fa9ba1?apiKey=0e17b0b875f041659e186639705112b1&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea8901ae12d5f2305f993509f042e38f40f82c78c8ec6b914095e23800fa9ba1?apiKey=0e17b0b875f041659e186639705112b1&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea8901ae12d5f2305f993509f042e38f40f82c78c8ec6b914095e23800fa9ba1?apiKey=0e17b0b875f041659e186639705112b1&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea8901ae12d5f2305f993509f042e38f40f82c78c8ec6b914095e23800fa9ba1?apiKey=0e17b0b875f041659e186639705112b1&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea8901ae12d5f2305f993509f042e38f40f82c78c8ec6b914095e23800fa9ba1?apiKey=0e17b0b875f041659e186639705112b1&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea8901ae12d5f2305f993509f042e38f40f82c78c8ec6b914095e23800fa9ba1?apiKey=0e17b0b875f041659e186639705112b1&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea8901ae12d5f2305f993509f042e38f40f82c78c8ec6b914095e23800fa9ba1?apiKey=0e17b0b875f041659e186639705112b1&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea8901ae12d5f2305f993509f042e38f40f82c78c8ec6b914095e23800fa9ba1?apiKey=0e17b0b875f041659e186639705112b1&"
+              src="/elements/id_recommend.png"
               className="self-stretch my-auto w-full aspect-[1.49] max-lg:mt-10 max-lg:max-w-full"
             />
           </div>
