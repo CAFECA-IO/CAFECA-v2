@@ -16,7 +16,7 @@ const LandingNavbar = () => {
         <Link href={CAFECA_URL.HOME} className="items-center lg:flex justify-center hidden">
           <img
             loading="lazy"
-            src="/logos/ogo.svg"
+            src="/logos/logo.svg"
             className="shrink-0 my-auto max-w-full aspect-[3.33] w-[120px]"
           />
         </Link>
@@ -26,7 +26,7 @@ const LandingNavbar = () => {
           <Link href={CAFECA_URL.HOME} className="items-center flex justify-center">
             <img
               loading="lazy"
-              src="/logos/ogo.svg"
+              src="/logos/logo.svg"
               className="shrink-0 my-auto max-w-full aspect-[3.33] w-[120px]"
             />
           </Link>
