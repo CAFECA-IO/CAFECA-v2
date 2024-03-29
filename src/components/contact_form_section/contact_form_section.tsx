@@ -5,7 +5,7 @@ import ContactForm from '../contact_form/contact_form';
 const ContactFormSection = () => {
   return (
     <div id="contact-us" className="relative h-1440px">
-      <div className="absolute z-10 h-full w-full bg-contact_bg bg-cover bg-no-repeat"></div>
+      <div className="absolute z-10 h-1/2 w-full bg-contact_bg bg-cover bg-no-repeat"></div>
 
       <div className="absolute top-0 h-500px w-full">
         {' '}
@@ -18,7 +18,7 @@ const ContactFormSection = () => {
           className="z-10"
         /> */}
         <div className="pt-0 flex flex-col w-full max-md:max-w-full">
-          <div className="flex overflow-hidden relative flex-col justify-center items-center px-16 pt-16 pb-0 w-full min-h-[1440px] max-md:px-5 max-md:max-w-full">
+          <div className="flex overflow-hidden relative flex-col justify-center items-center px-16 pt-16 pb-0 w-full min-h-1440px max-md:px-5 max-md:max-w-full">
             {/* <div className="relative h-500px w-full">
             <Image
               loading="lazy"

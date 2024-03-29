@@ -31,7 +31,6 @@ const LandingPageBody = () => {
           <ContactFormSection />
         </div>
       </div>
-      {/* <LandingFooter /> */}
     </>
   );
 };
