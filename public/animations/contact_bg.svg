@@ -1,0 +1,89 @@
+<!-- Info: 加大寬度，改善光線移動的動畫被限制在中間；SVG元素定義了整個圖形的大小和命名空間 -->
+<svg width="1400" height="551" viewBox="0 0 1400 551" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <!-- 定義了一個群組元素，用於剪裁圖形 -->
+ <g clip-path="url(#clip0_218_10549)" >
+    <!-- Info: 加大寬度，改善光線移動的動畫被限制在中間；定義了一個矩形元素，作為背景 -->
+    <rect width="1440" height="550" transform="translate(0.5 0.5)" fill="white" />
+    
+    <!-- Info: 上方藍色光線：定義了另一個群組元素，用於應用不同的濾鏡效果 -->
+    <g filter="url(#filter1_f_218_10549)">
+      <!-- 定義了另一個路徑元素，用於繪製圖形 -->
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M2.7467 -64.6434C70.2148 -59.923 118.415 -39.4179 176.179 -25.8818C227.729 -13.8019 289.48 -6.56584 326.495 11.222C363.276 28.8971 362.206 52.7627 383.157 73.582C407.023 97.298 468.007 118.042 459.205 143.095C450.503 167.863 386.223 184.723 337.883 202.443C292.861 218.947 243.561 233.568 185.629 243.383C128.099 253.13 66.0322 260.929 2.7467 259.223C-59.1925 257.553 -113.145 244.774 -167.536 233.862C-219.821 223.372 -272.076 212.708 -311.082 196.259C-350.795 179.512 -371.628 158.676 -394.445 138.172C-420.315 114.924 -474.789 91.1762 -454.718 67.1815C-434.276 42.7421 -336.961 39.2543 -294.654 18.8687C-250.811 -2.25697 -263.67 -36.4536 -206.076 -52.6263C-149.574 -68.4925 -67.337 -69.5469 2.7467 -64.6434Z" fill="url(#paint1_linear_218_10549)">
+        <!-- 定義了一個動畫元素，用於創建圖形的移動動畫 -->
+        <animateTransform attributeName="transform" type="translate" dur="20s" repeatCount="indefinite" values="0 0; 1000 0; 0 0" />
+      </path>
+    </g>
+
+    <!-- Info: 下方粉色光線：定義了一個群組元素，用於應用濾鏡效果 -->
+    <g filter="url(#filter0_f_218_10549)">
+      <!-- 定義了一個路徑元素，用於繪製圖形 -->
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M1891.56 385.602C1858.25 412.429 1782.94 426.506 1725.87 446.654C1674.94 464.635 1635.69 488.323 1571.72 498.527C1508.15 508.666 1436.69 501.13 1368.15 503.712C1290.07 506.654 1210.42 526.008 1137.58 514.884C1065.57 503.886 1033.09 471.984 993.496 446.495C956.624 422.756 926.628 397.786 913.526 370.631C900.516 343.665 894.648 315.38 917.707 289.407C940.276 263.988 993.986 245.209 1042.21 225.693C1088.56 206.932 1135.43 188.236 1195.95 176.801C1257.56 165.16 1326.11 162.631 1394.23 159.175C1471.46 155.256 1558.3 139.517 1624.77 155.042C1692.47 170.854 1675.38 212.607 1724.7 236.363C1775.8 260.982 1882.27 265.759 1914.58 294.66C1946.29 323.014 1926.16 357.735 1891.56 385.602Z" fill="url(#paint0_linear_218_10549)">
+        <!-- 定義了一個動畫元素，用於創建圖形的移動動畫 -->
+        <animateTransform attributeName="transform" type="translate" dur="20s" repeatCount="indefinite" values="0 0; -1000 0; 0 0" />
+      </path>
+    </g>
+
+    <!-- 定義了一個群組元素，用於應用背景濾鏡效果 -->
+    <g filter="url(#filter2_b_218_10549)">
+      <!-- Info: 減少光線的透明度；定義了一個矩形元素，作為背景 -->
+      <rect width="1440" height="550" transform="translate(0.5 0.5)" fill="white" fill-opacity="0.7" />
+    </g>
+
+ </g>
+ <!-- 定義了一個defs元素，用於存儲可重用的元素 -->
+ <defs>
+    <!-- Info: 下方粉色光線：定義了一個濾鏡元素，用於創建特定的視覺效果；雖然是粉色光線，但需要跟藍色光線一樣 x, y 去定義，光線移動的動畫才不會被限制在中間 (20240328 - Shirley) -->
+    <filter id="filter0_f_218_10549" x="-759.066" y="-367.233" width="2519.13" height="926.692" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <!-- 定義了一個feFlood元素，用於填充顏色 -->
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <!-- 定義了一個feBlend元素，用於混合兩個元素 -->
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <!-- Info: 增加粉色光線模糊半徑，以淡化光線顏色；定義了一個feGaussianBlur元素，用於創建高斯模糊效果 -->
+      <feGaussianBlur stdDeviation="200" result="effect1_foregroundBlur_218_10549" />
+    </filter>
+
+    <!-- Info: 上方藍色光線：定義了另一個濾鏡元素，用於創建不同的視覺效果，加大寬度，改善光線移動的動畫被限制在中間 (20240328 - Shirley) -->
+    <filter id="filter1_f_218_10549" x="-759.066" y="-367.233" width="2519.13" height="926.692" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <!-- 定義了一個feFlood元素，用於填充顏色 -->
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <!-- 定義了一個feBlend元素，用於混合兩個元素 -->
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <!-- Info: 降低藍色光線模糊半徑，以強化光線；定義了一個feGaussianBlur元素，用於創建高斯模糊效果 -->
+      <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_218_10549" />
+    </filter>
+
+    <!-- 定義了一個濾鏡元素，用於創建背景的視覺效果 -->
+    <filter id="filter2_b_218_10549" x="-79.5" y="-79.5" width="2519.13" height="710" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <!-- 定義了一個feFlood元素，用於填充顏色 -->
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <!-- 定義了一個feGaussianBlur元素，用於創建高斯模糊效果 -->
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="40" />
+      <!-- 定義了一個feComposite元素，用於創建兩個元素的合成效果 -->
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_218_10549" />
+      <!-- 定義了一個feBlend元素，用於混合兩個元素 -->
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_218_10549" result="shape" />
+    </filter>
+
+    <!-- Info: （粉色光線漸變）定義了一個線性漸變元素，用於創建漸變的顏色效果 -->
+    <linearGradient id="paint0_linear_218_10549" x1="1899.98" y1="385.431" x2="1181.39" y2="-101.133" gradientUnits="userSpaceOnUse">
+      <!-- 定義了一個漸變點元素，用於設置漸變的起始顏色 -->
+      <stop stop-color="#9F3FFF" />
+      <!-- 定義了一個漸變點元素，用於設置漸變的結束顏色 -->
+      <stop offset="1" stop-color="#EB00FF" />
+    </linearGradient>
+
+    <!-- Info: （藍色光線漸變）定義了另一個線性漸變元素，用於創建不同的漸變顏色效果 -->
+    <linearGradient id="paint1_linear_218_10549" x1="0.499969" y1="-67.2332" x2="0.499969" y2="259.458" gradientUnits="userSpaceOnUse">
+      <!-- 定義了一個漸變點元素，用於設置漸變的起始顏色 -->
+      <stop stop-color="#3FE8FF" stop-opacity="5" />
+      <!-- 定義了一個漸變點元素，用於設置漸變的結束顏色 -->
+      <stop offset="1" stop-color="#2400FF" stop-opacity="5" />
+    </linearGradient>
+    
+    <!-- 定義了一個剪裁路徑元素，用於限制圖形的顯示範圍 -->
+    <clipPath id="clip0_218_10549">
+      <!-- 定義了一個矩形元素，作為剪裁路徑的形狀 -->
+      <rect width="1440" height="550" fill="white" transform="translate(0.5 0.5)" />
+    </clipPath>
+ </defs>
+</svg>
