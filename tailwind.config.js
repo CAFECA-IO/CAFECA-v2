@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       colors: {
         primaryPurple: '#B531FD',
+        primaryPurpleHover: '#D07AFE',
         secondaryBlue: '#00B4FE',
 
         lightGreen: '#3DD08C',
@@ -19,6 +20,7 @@ module.exports = {
         gray100: '#E8E8ED',
         gray50: '#FBFBFC',
         gray00: '#FFFFFF',
+        coolGray90: '#21272A',
       },
       spacing: {
         /* Info: (20240327 - Shirley) 適用範圍
