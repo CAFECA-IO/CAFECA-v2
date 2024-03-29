@@ -14,7 +14,7 @@ const LandingFooter = () => {
   return (
     <div>
       {' '}
-      <div className="z-10 flex gap-5 justify-center px-10 py-6 bg-gray900 max-md:flex-wrap max-md:px-5 lg:flex-row flex-col">
+      <div className="z-20 flex gap-5 justify-center px-10 py-6 bg-gray900 max-md:flex-wrap max-md:px-5 lg:flex-row flex-col">
         <div className="flex flex-1 items-start gap-5 lg:gap-3 justify-start max-md:flex-wrap lg:flex-row flex-wrap flex-col">
           {/* Info: location information (20240327 - Shirley) */}
           <Link href={CAFECA_ADDRESS_ON_GOOGLE_MAP || ''} target="_blank">

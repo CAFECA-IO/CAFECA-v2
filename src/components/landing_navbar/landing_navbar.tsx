@@ -39,21 +39,22 @@ const LandingNavbar = () => {
           className={`${isMenuOpen ? `flex` : `hidden`} gap-0 max-md:flex-wrap lg:flex-row flex-col lg:flex`}
           onClick={handleMenuOpen}
         >
-          <Link href={CAFECA_URL.COMING_SOON}>
+          {/* TODO: workaround for not-yet pages (20240329 - Shirley) */}
+          {/* <Link href={CAFECA_URL.COMING_SOON}>
             <div className="justify-center px-9 py-5 whitespace-nowrap rounded-xl max-md:px-5 hover:text-gray600/70 text-center">
               Apply
             </div>
-          </Link>
-          <Link href={CAFECA_URL.COMING_SOON}>
+          </Link> */}
+          {/* <Link href={CAFECA_URL.COMING_SOON}>
             <div className="justify-center px-9 py-5 rounded-xl max-md:px-5 hover:text-gray600/70 text-center">
               My Order
             </div>
-          </Link>
-          <Link href={CAFECA_URL.FAQ}>
+          </Link> */}
+          {/* <Link href={CAFECA_URL.FAQ}>
             <div className="justify-center px-9 py-5 whitespace-nowrap rounded-xl max-md:px-5 hover:text-gray600/70 text-center">
               FAQ
             </div>
-          </Link>
+          </Link> */}
           {/* <Link href="#contact-us"> */}
           <Link href={CAFECA_URL.CONTACT_US}>
             <div className="justify-center px-9 py-5 rounded-xl max-md:px-5 hover:text-gray600/70 text-center">

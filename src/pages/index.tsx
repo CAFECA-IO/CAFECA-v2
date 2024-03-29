@@ -1,5 +1,4 @@
 // import Image from "next/image";
-import {Inter} from '@next/font/google';
 import {useTranslation} from 'next-i18next';
 import {serverSideTranslations} from 'next-i18next/serverSideTranslations';
 import Head from 'next/head';
