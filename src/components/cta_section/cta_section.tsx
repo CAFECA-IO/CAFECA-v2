@@ -70,6 +70,7 @@ const CTASection = () => {
             <div
               className={`relative top-0 left-20 sm:left-4rem shrink-0 ${isAnimeRef1Visible ? `translate-x-0` : `translate-x-10% sm:translate-x-20% md:translate-x-15% lg:translate-x-20%`} duration-1000`}
             >
+              {/* Deprecated: <img> layout (20240414 - Shirley) */}
               {/* <img
                 loading="lazy"
                 src="/elements/card_white.png"
@@ -83,16 +84,6 @@ const CTASection = () => {
                   style={{objectFit: 'contain'}}
                 />
               </div>
-
-              {/* TODO: optimize with <Image> (20240329 - Shirley) */}
-              {/* <div className="mt-6 max-w-[300px] md:max-w-4/5 mx-auto aspect-[4/3] relative">
-                <Image
-                  src="/elements/card_white.png"
-                  alt="White Card"
-                  fill
-                  style={{objectFit: 'cover'}}
-                />
-              </div> */}
             </div>
 
             {/* Info: 黑卡 (20240327 - Shirley) */}
@@ -100,6 +91,7 @@ const CTASection = () => {
               className={`relative shrink-0 top-0 right-14 sm:right-0 ${isAnimeRef1Visible ? `translate-x-0` : `-translate-x-10% sm:-translate-x-20% md:-translate-x-15% lg:-translate-x-20%`} duration-1000`}
             >
               {' '}
+              {/* Deprecated: <img> layout (20240414 - Shirley) */}
               {/* <img
                 loading="lazy"
                 src="/elements/card_black.png"
@@ -113,18 +105,8 @@ const CTASection = () => {
                   style={{objectFit: 'contain'}}
                 />
               </div>
-              {/* TODO: optimize with <Image> (20240329 - Shirley) */}
-              {/* <div className="mt-6 max-w-[300px] md:max-w-4/5 mx-auto aspect-[4/3] relative">
-                <Image
-                  src="/elements/card_black.png"
-                  alt="Black Card"
-                  fill
-                  style={{objectFit: 'cover'}}
-                />
-              </div> */}
             </div>
           </div>
-          {/* </div> */}
         </div>
       </div>
     </div>

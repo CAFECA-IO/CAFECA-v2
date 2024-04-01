@@ -1,8 +1,4 @@
-// Install necessary packages before using this component:
-// npm install react-icons
-
 import {useState} from 'react';
-import {IoIosArrowDown} from 'react-icons/io';
 
 interface FAQItemProps {
   question: string;
