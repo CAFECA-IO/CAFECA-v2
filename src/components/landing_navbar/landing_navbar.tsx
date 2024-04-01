@@ -2,6 +2,7 @@ import Link from 'next/link';
 import {useState} from 'react';
 import {CAFECA_URL} from '../../constants/config';
 import {RxHamburgerMenu} from 'react-icons/rx';
+import Image from 'next/image';
 
 const LandingNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,20 +15,26 @@ const LandingNavbar = () => {
       <div className="flex gap-5 justify-between px-20 py-4 w-full text-lg font-bold leading-6 text-gray600 bg-gray100 flex-col lg:flex-row max-md:px-5 max-md:max-w-full">
         {/* Info: desktop (logo and navlinks) (20240328 - Shirley) */}
         <Link href={CAFECA_URL.HOME} className="items-center lg:flex justify-center hidden">
-          <img
+          <Image
             loading="lazy"
             src="/logos/logo.svg"
-            className="shrink-0 my-auto max-w-full aspect-[3.33] w-[120px]"
+            width={120}
+            height={40}
+            alt="logo"
+            className="shrink-0 my-auto"
           />
         </Link>
 
         {/* Info: mobile (logo and hamburger) (20240328 - Shirley) */}
         <div className="lg:hidden flex w-full justify-between items-center">
           <Link href={CAFECA_URL.HOME} className="items-center flex justify-center">
-            <img
+            <Image
               loading="lazy"
               src="/logos/logo.svg"
-              className="shrink-0 my-auto max-w-full aspect-[3.33] w-[120px]"
+              width={120}
+              height={40}
+              alt="logo"
+              className="shrink-0 my-auto"
             />
           </Link>
           <button className="flex lg:hidden hover:opacity-80">
@@ -50,12 +57,11 @@ const LandingNavbar = () => {
               My Order
             </div>
           </Link> */}
-          {/* <Link href={CAFECA_URL.FAQ}>
+          <Link href={CAFECA_URL.FAQ}>
             <div className="justify-center px-9 py-5 whitespace-nowrap rounded-xl max-md:px-5 hover:text-gray600/70 text-center">
               FAQ
             </div>
-          </Link> */}
-          {/* <Link href="#contact-us"> */}
+          </Link>
           <Link href={CAFECA_URL.CONTACT_US}>
             <div className="justify-center px-9 py-5 rounded-xl max-md:px-5 hover:text-gray600/70 text-center">
               Contact Us

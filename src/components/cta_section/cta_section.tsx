@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import {useEffect, useRef, useState} from 'react';
 import {CAFECA_URL} from '../../constants/config';
+import Image from 'next/image';
 
 const CTASection = () => {
   const animeRef1 = useRef(null);
@@ -61,49 +62,51 @@ const CTASection = () => {
               </svg>
             </Link> */}
           </div>
-          <div className="w-full flex justify-center relative overflow-x-hidden" ref={animeRef1}>
+          <div
+            className="w-full flex justify-center relative overflow-x-hidden h-fit md:h-500px"
+            ref={animeRef1}
+          >
             {/* Info: 白卡 (20240327 - Shirley) */}
             <div
-              className={`absolute -top-2 left-5 sm:left-1/5 lg:left-1/11 xl:left-1/8 md:-left-5 shrink-0 ${isAnimeRef1Visible ? `translate-x-0` : `translate-x-10% sm:translate-x-20% md:translate-x-15% lg:translate-x-20%`} duration-1000`}
+              className={`relative top-0 left-20 sm:left-4rem shrink-0 ${isAnimeRef1Visible ? `translate-x-0` : `translate-x-10% sm:translate-x-20% md:translate-x-15% lg:translate-x-20%`} duration-1000`}
             >
-              <img
+              {/* Deprecated: <img> layout (20240414 - Shirley) */}
+              {/* <img
                 loading="lazy"
                 src="/elements/card_white.png"
                 className="mt-6 max-w-[300px] md:max-w-4/5 mx-auto aspect-[4/3]"
-              />
-              {/* TODO: optimize with <Image> (20240329 - Shirley) */}
-              {/* <div className="mt-6 max-w-[300px] md:max-w-4/5 mx-auto aspect-[4/3] relative">
+              /> */}
+              <div className="aspect-[4/3] w-250px sm:w-300px md:w-400px lg:w-500px">
                 <Image
                   src="/elements/card_white.png"
                   alt="White Card"
                   fill
-                  style={{objectFit: 'cover'}}
+                  style={{objectFit: 'contain'}}
                 />
-              </div> */}
+              </div>
             </div>
 
             {/* Info: 黑卡 (20240327 - Shirley) */}
             <div
-              className={`relative ml-2/5 sm:ml-1/3 lg:ml-2/5 xl:ml-1/3 shrink-0 ${isAnimeRef1Visible ? `translate-x-0` : `-translate-x-10% sm:-translate-x-20% md:-translate-x-15% lg:-translate-x-20%`} duration-1000`}
+              className={`relative shrink-0 top-0 right-14 sm:right-0 ${isAnimeRef1Visible ? `translate-x-0` : `-translate-x-10% sm:-translate-x-20% md:-translate-x-15% lg:-translate-x-20%`} duration-1000`}
             >
               {' '}
-              <img
+              {/* Deprecated: <img> layout (20240414 - Shirley) */}
+              {/* <img
                 loading="lazy"
                 src="/elements/card_black.png"
                 className="mt-6 max-w-[300px] md:max-w-4/5 mx-auto  aspect-[4/3]"
-              />
-              {/* TODO: optimize with <Image> (20240329 - Shirley) */}
-              {/* <div className="mt-6 max-w-[300px] md:max-w-4/5 mx-auto aspect-[4/3] relative">
+              /> */}
+              <div className="aspect-[4/3] w-250px sm:w-300px md:w-400px lg:w-500px">
                 <Image
                   src="/elements/card_black.png"
                   alt="Black Card"
                   fill
-                  style={{objectFit: 'cover'}}
+                  style={{objectFit: 'contain'}}
                 />
-              </div> */}
+              </div>
             </div>
           </div>
-          {/* </div> */}
         </div>
       </div>
     </div>

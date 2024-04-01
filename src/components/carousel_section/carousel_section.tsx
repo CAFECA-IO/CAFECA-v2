@@ -52,14 +52,3 @@ const CarouselSection = () => {
 };
 
 export default CarouselSection;
-
-{
-  /* <div className="absolute -top-20 h-220px w-220px">
-          <Image
-            src={image}
-            alt={alt}
-            fill
-            style={{objectFit: 'cover', objectPosition: 'center bottom'}}
-          />
-        </div> */
-}
