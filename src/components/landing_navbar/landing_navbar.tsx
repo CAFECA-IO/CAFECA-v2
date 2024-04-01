@@ -57,12 +57,11 @@ const LandingNavbar = () => {
               My Order
             </div>
           </Link> */}
-          {/* <Link href={CAFECA_URL.FAQ}>
+          <Link href={CAFECA_URL.FAQ}>
             <div className="justify-center px-9 py-5 whitespace-nowrap rounded-xl max-md:px-5 hover:text-gray600/70 text-center">
               FAQ
             </div>
-          </Link> */}
-          {/* <Link href="#contact-us"> */}
+          </Link>
           <Link href={CAFECA_URL.CONTACT_US}>
             <div className="justify-center px-9 py-5 rounded-xl max-md:px-5 hover:text-gray600/70 text-center">
               Contact Us
