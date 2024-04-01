@@ -10,7 +10,7 @@ const FAQPageBody = () => {
 
   return (
     <div>
-      <div className="flex flex-col w-full max-w-[1200px] max-md:max-w-full h-fit mt-20 mb-40">
+      <div className="flex flex-col w-full h-fit mt-20 mb-40 justify-center">
         <div className="flex justify-center items-center px-16 text-center max-md:px-5 max-md:max-w-full">
           <div className="flex flex-col max-md:max-w-full">
             <div className="text-xl tracking-wider leading-5 uppercase text-gray900 max-md:max-w-full">
