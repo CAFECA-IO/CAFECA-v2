@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
-import {FaqSection} from '../../constants/display';
-import FAQItem from '../faq_item/faq_item';
+import FAQSection from '../faq_section/faq_section';
 
 const FAQPageBody = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -8,16 +7,6 @@ const FAQPageBody = () => {
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(event.target.value);
   };
-
-  const filteredFaqSection = FaqSection.filter(
-    item =>
-      item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      item.content.toLowerCase().includes(searchQuery.toLowerCase())
-  );
-
-  const faqSection = filteredFaqSection.map(item => (
-    <FAQItem key={item.title} question={item.title} answer={item.content} />
-  ));
 
   return (
     <div>
@@ -27,7 +16,7 @@ const FAQPageBody = () => {
             <div className="text-xl tracking-wider leading-5 uppercase text-gray900 max-md:max-w-full">
               FAQ
             </div>
-            <div className="mt-2 text-6xl text-primaryPurple leading-[61.6px] max-md:max-w-full max-md:text-4xl font-bold">
+            <div className="mt-5 md:mt-2 md:text-4xl lg:text-6xl text-primaryPurple leading-[61.6px] max-md:max-w-full max-sm:text-3xl font-bold">
               What would you like to know?
             </div>
           </div>
@@ -60,8 +49,7 @@ const FAQPageBody = () => {
                 </svg>
               </div>
             </div>
-            {/* --- heading --- */}
-            {faqSection}
+            <FAQSection searchQuery={searchQuery} />
           </div>
         </div>
       </div>
