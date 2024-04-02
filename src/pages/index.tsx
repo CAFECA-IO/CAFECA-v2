@@ -4,6 +4,7 @@ import {ILocale} from '../interfaces/locale';
 import LandingNavbar from '../components/landing_navbar/landing_navbar';
 import LandingPageBody from '../components/landing_page_body/landing_page_body';
 import LandingFooter from '../components/landing_footer/landing_footer';
+import {FAVICON} from '../constants/display';
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={FAVICON} />
         <title>CAFECA</title>
         <meta
           name="description"
