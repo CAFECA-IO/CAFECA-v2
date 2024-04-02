@@ -45,7 +45,7 @@ const Custom404 = () => {
                   href={'/'}
                   className="flex flex-col justify-center self-center mt-14 max-w-full text-lg font-bold leading-6 text-gray100 max-md:mt-10"
                 >
-                  <div className="flex gap-2 justify-center px-14 py-5 bg-primaryPurple rounded-xl max-md:px-5">
+                  <div className="flex gap-2 justify-center px-14 py-5 bg-primaryPurple hover:bg-primaryPurpleHover rounded-xl max-md:px-5">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="25"
