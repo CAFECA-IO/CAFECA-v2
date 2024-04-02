@@ -29,3 +29,5 @@ export const FaqSection = [
       'All orders are final and non-refundable. For more details on refund terms, please refer to: https://isun.id/termsService',
   },
 ];
+
+export const FAVICON = '/favicon.ico';

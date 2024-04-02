@@ -4,6 +4,7 @@ import {ILocale} from '../interfaces/locale';
 import LandingNavbar from '../components/landing_navbar/landing_navbar';
 import LandingFooter from '../components/landing_footer/landing_footer';
 import FAQPageBody from '../components/faq_page_body/faq_page_body';
+import {FAVICON} from '../constants/display';
 
 export default function FAQ() {
   return (
@@ -11,8 +12,8 @@ export default function FAQ() {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-        <title>CAFECA</title>
+        <link rel="icon" href={FAVICON} />
+        <title>FAQ - CAFECA</title>
         <meta
           name="description"
           // TODO: Add a proper description (20240327 - Shirley)

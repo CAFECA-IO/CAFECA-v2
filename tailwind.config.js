@@ -266,6 +266,7 @@ module.exports = {
       backgroundImage: {
         contact_bg: "url('/animations/contact_bg.svg')",
         contact_bg_static: "url('/elements/anime_1.svg')",
+        purple_rectangle: "url('/elements/rectangle_5.svg')",
       },
       translate: {
         '5%': '5%',
