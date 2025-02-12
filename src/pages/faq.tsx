@@ -2,18 +2,18 @@ import {serverSideTranslations} from 'next-i18next/serverSideTranslations';
 import Head from 'next/head';
 import {ILocale} from '../interfaces/locale';
 import LandingNavbar from '../components/landing_navbar/landing_navbar';
-import LandingPageBody from '../components/landing_page_body/landing_page_body';
 import LandingFooter from '../components/landing_footer/landing_footer';
+import FAQPageBody from '../components/faq_page_body/faq_page_body';
 import {FAVICON} from '../constants/display';
 
-export default function Home() {
+export default function FAQ() {
   return (
     <>
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href={FAVICON} />
-        <title>CAFECA</title>
+        <title>FAQ - CAFECA</title>
         <meta
           name="description"
           // TODO: Add a proper description (20240327 - Shirley)
@@ -36,7 +36,7 @@ export default function Home() {
         </nav>
 
         <main>
-          <LandingPageBody />
+          <FAQPageBody />
         </main>
         <LandingFooter />
       </div>
