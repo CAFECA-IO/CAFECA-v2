@@ -38,6 +38,7 @@ const LandingNavbar = () => {
             />
           </Link>
           <button className="flex lg:hidden hover:opacity-80">
+            {/* @ts-expect-error */}
             <RxHamburgerMenu onClick={handleMenuOpen} size={30} />
           </button>
         </div>
