@@ -38,7 +38,7 @@ const LandingNavbar = () => {
             />
           </Link>
           <button className="flex lg:hidden hover:opacity-80">
-            {/* @ts-expect-error */}
+            {/* @ts-expect-error react-icons returns ReactNode; Next.js expects JSX.Element */}
             <RxHamburgerMenu onClick={handleMenuOpen} size={30} />
           </button>
         </div>
