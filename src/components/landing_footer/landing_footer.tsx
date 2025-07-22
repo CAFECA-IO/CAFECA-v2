@@ -55,6 +55,7 @@ const LandingFooter = () => {
             <div className="flex gap-2 text-sm leading-5 text-right text-white items-center">
               <div className="shrink-0 flex items-center justify-center mx-auto w-25px h-25px">
                 {/* Info: phone svg (20240327 - Shirley) */}
+                {/* @ts-expect-error react-icons returns ReactNode; Next.js expects JSX.Element */}
                 <FaPhoneAlt size={20} />
 
                 {/* <svg
